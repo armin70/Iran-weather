@@ -1,15 +1,18 @@
-name: Update Weather Data
+name: Update weather data
 
 on:
   schedule:
-    - cron: "0 3,15 * * *"   # حدود 06:30 و 18:30 ایران
-  workflow_dispatch:
+    # اجرای هر 6 ساعت
+    - cron: "0 */6 * * *"
+  workflow_dispatch:  # قابلیت اجرای دستی از صفحه GitHub Actions
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -17,20 +20,21 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
-
-      - name: Fetch weather
-        run: python scripts/fetch_weather.py
-
-      - name: Commit if changed
         run: |
-          git config user.name "weather-bot"
-          git config user.email "bot@example.com"
-          git status
-          if git diff --quiet; then
-            echo "No changes"
-          else
-            git add data
-            git commit -m "update weather data"
-            git push
-          fi
+          pip install requests
+
+      - name: Fetch weather data
+        run: |
+          python scripts/fetch_weather.py
+
+      - name: Build summary
+        run: |
+          python scripts/build_all_min.py
+
+      - name: Commit and push new data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Auto update weather data"
+          git push
