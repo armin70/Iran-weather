@@ -3,6 +3,7 @@ import time
 import re
 
 TOKEN = "1229859473:TgRGJRh7ARWpQpXDP20jmBWmVMhSeiINVlQ"
+
 API_URL = f"https://tapi.bale.ai/bot{TOKEN}"
 
 WEATHER_URL = "https://raw.githubusercontent.com/armin70/Iran-weather/main/data/all.min.json"
@@ -12,9 +13,9 @@ last_fetch = 0
 CACHE_TTL = 30
 
 
-# ------------------------------
+# ---------------------------------------------------------------
 # Helpers
-# ------------------------------
+# ---------------------------------------------------------------
 
 def normalize_text(text):
     if not text:
@@ -36,9 +37,9 @@ def extract_city_from_text(text):
     return text.strip()
 
 
-# ------------------------------
+# ---------------------------------------------------------------
 # API
-# ------------------------------
+# ---------------------------------------------------------------
 
 def get_updates(offset=None):
     url = f"{API_URL}/getUpdates"
@@ -50,18 +51,22 @@ def get_updates(offset=None):
         return {}
 
 
-def send_message(chat_id, text):
+def send_message(chat_id, text, keyboard=None):
     url = f"{API_URL}/sendMessage"
     payload = {"chat_id": chat_id, "text": text}
+
+    if keyboard:
+        payload["reply_markup"] = keyboard
+
     try:
         requests.post(url, json=payload, timeout=10)
     except:
         pass
 
 
-# ------------------------------
+# ---------------------------------------------------------------
 # Weather
-# ------------------------------
+# ---------------------------------------------------------------
 
 def load_weather():
     global weather_cache, last_fetch
@@ -102,15 +107,60 @@ def find_city(query, data):
     return None
 
 
+# ---------------------------------------------------------------
+# BUILD CITY KEYBOARD (Dropdown-like)
+# ---------------------------------------------------------------
+
+def build_city_keyboard(cities):
+    keyboard = []
+    row = []
+
+    for i, c in enumerate(cities):
+        row.append(c["city"])
+        if len(row) == 2:
+            keyboard.append(row)
+            row = []
+
+    if row:
+        keyboard.append(row)
+
+    return {
+        "keyboard": keyboard,
+        "resize_keyboard": True,
+        "one_time_keyboard": False,
+        "selective": True
+    }
+
+
+# ---------------------------------------------------------------
+# Weather Formatting (PREMIUM VERSION)
+# ---------------------------------------------------------------
+
 def format_weather(c):
+    # انتخاب آیکون بر اساس دما
+    temp = c['temp']
+    if temp <= 0:
+        icon = "❄️"
+    elif temp <= 10:
+        icon = "🌥️"
+    elif temp <= 20:
+        icon = "⛅"
+    elif temp <= 30:
+        icon = "🌤️"
+    else:
+        icon = "🔥"
+
     return (
-        f"🌤 آب‌وهوا در {c['city']}\n\n"
-        f"دمای فعلی: {c['temp']}°C\n"
-        f"باد: {c['wind']} km/h\n"
-        f"احتمال بارش: {c['rain']}٪\n\n"
-        f"🔹 امروز\n"
-        f"حداقل: {c['tmin']}°C\n"
-        f"حداکثر: {c['tmax']}°C"
+        f"{icon} وضعیت جوی شهر {c['city']}\n\n"
+        f"🌡 دمای فعلی: {c['temp']}°C\n"
+        f"🔺 بیشینه امروز: {c['tmax']}°C\n"
+        f"🔻 کمینه امروز: {c['tmin']}°C\n"
+        f"💨 سرعت باد: {c['wind']} km/h\n"
+        f"🌧 احتمال بارش: {c['rain']}٪\n\n"
+        f"🕒 آخرین به‌روزرسانی داده‌ها: لحظات اخیر\n"
+        f"——————————————\n"
+        f"برای بررسی شهر دیگر، فقط نام آن را بفرستید.\n"
+        f"یا از لیست شهرها استفاده کنید."
     )
 
 
@@ -133,9 +183,9 @@ def get_weather(text):
     return format_weather(city)
 
 
-# ------------------------------
+# ---------------------------------------------------------------
 # Main Loop
-# ------------------------------
+# ---------------------------------------------------------------
 
 offset = None
 
@@ -159,18 +209,25 @@ while True:
 
             text = text.strip()
 
+            # /start
             if text == "/start":
+                data = load_weather()
+
+                if not data:
+                    send_message(chat_id, "❗ خطا در بارگذاری لیست شهرها")
+                    continue
+
+                keyboard = build_city_keyboard(data)
+
                 send_message(
                     chat_id,
                     "سلام 🌦\n"
-                    "نام شهر را بفرستید.\n\n"
-                    "مثال‌ها:\n"
-                    "تهران\n"
-                    "هوای مشهد\n"
-                    "Shiraz"
+                    "از لیست زیر یک شهر را انتخاب کنید یا نام آن را تایپ کنید:",
+                    keyboard
                 )
                 continue
 
+            # Normal message → search
             reply = get_weather(text)
             send_message(chat_id, reply)
 

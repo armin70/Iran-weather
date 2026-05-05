@@ -22,7 +22,21 @@ def fetch_weather(lat, lon, retries=3):
         "latitude": lat,
         "longitude": lon,
         "current_weather": True,
-        "daily": "temperature_2m_max,temperature_2m_min,precipitation_probability_max",
+        
+        # ⬇️ داده‌های نسخه رایگان + پایه برای نسخه پولی در آینده
+        "hourly": ",".join([
+            "temperature_2m",
+            "precipitation_probability",
+            "weather_code",
+            "wind_speed_10m"
+        ]),
+        "daily": ",".join([
+            "temperature_2m_max",
+            "temperature_2m_min",
+            "precipitation_probability_max",
+            "weather_code"
+        ]),
+        "forecast_days": 2,
         "timezone": "auto"
     }
 
