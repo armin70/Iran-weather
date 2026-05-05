@@ -3,8 +3,11 @@ import requests
 import os
 import time
 
-CITIES_FILE = "data/cities_meta.json"
-OUTPUT_DIR = "data/cities"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+CITIES_FILE = os.path.join(BASE_DIR, "data", "cities_meta.json")
+OUTPUT_DIR = os.path.join(BASE_DIR, "data", "cities")
+
 API_URL = "https://api.open-meteo.com/v1/forecast"
 
 
@@ -50,7 +53,7 @@ def save_city_weather(city, weather):
         "data": weather
     }
 
-    path = f"{OUTPUT_DIR}/{city['id']}.json"
+    path = os.path.join(OUTPUT_DIR, f"{city['id']}.json")
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
