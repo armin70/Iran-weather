@@ -1,6 +1,7 @@
 import json
 import requests
 import os
+import time
 
 CITIES_FILE = "data/cities_meta.json"
 OUTPUT_DIR = "data/cities"
@@ -12,8 +13,7 @@ def load_cities():
         data = json.load(f)
     return data["cities"]
 
-def fetch_weather(lat, lon):
-
+def fetch_weather(lat, lon, retries=3):
     params = {
         "latitude": lat,
         "longitude": lon,
@@ -22,13 +22,20 @@ def fetch_weather(lat, lon):
         "timezone": "auto"
     }
 
-    r = requests.get(API_URL, params=params)
-    r.raise_for_status()
-
-    return r.json()
+    for attempt in range(1, retries + 1):
+        try:
+            r = requests.get(API_URL, params=params, timeout=(5, 10))
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            print(f"  ⚠️  Attempt {attempt} failed:", e)
+            if attempt < retries:
+                time.sleep(1)
+            else:
+                print("  ❌ Giving up on this city.")
+                return None  # مهم: اجازه بدهیم اسکریپت ادامه دهد
 
 def save_city_weather(city, weather):
-
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     output = {
@@ -45,17 +52,16 @@ def save_city_weather(city, weather):
         json.dump(output, f, ensure_ascii=False, indent=2)
 
 def main():
-
     cities = load_cities()
 
     for city in cities:
-
         print("Fetching:", city["name_fa"])
 
-        weather = fetch_weather(
-            city["lat"],
-            city["lon"]
-        )
+        weather = fetch_weather(city["lat"], city["lon"])
+
+        if weather is None:
+            print("  ⚠️  Skipped due to fetch error.")
+            continue
 
         save_city_weather(city, weather)
 
