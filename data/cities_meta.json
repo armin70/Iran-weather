@@ -90,6 +90,834 @@
       "lon": 57.0834,
       "tier": 2,
       "is_alias": false
+    },
+
+    {
+      "id": 111,
+      "name_fa": "کرمانشاه",
+      "name_en": "Kermanshah",
+      "lat": 34.3277,
+      "lon": 47.0778,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 112,
+      "name_fa": "ارومیه",
+      "name_en": "Urmia",
+      "lat": 37.5527,
+      "lon": 45.0760,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 113,
+      "name_fa": "بندرعباس",
+      "name_en": "Bandar Abbas",
+      "lat": 27.1832,
+      "lon": 56.2666,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 114,
+      "name_fa": "اراک",
+      "name_en": "Arak",
+      "lat": 34.0944,
+      "lon": 49.7013,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 115,
+      "name_fa": "قزوین",
+      "name_en": "Qazvin",
+      "lat": 36.2730,
+      "lon": 50.0041,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 116,
+      "name_fa": "سنندج",
+      "name_en": "Sanandaj",
+      "lat": 35.3093,
+      "lon": 46.9990,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 117,
+      "name_fa": "زنجان",
+      "name_en": "Zanjan",
+      "lat": 36.6765,
+      "lon": 48.4963,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 118,
+      "name_fa": "همدان",
+      "name_en": "Hamadan",
+      "lat": 34.7983,
+      "lon": 48.5146,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 119,
+      "name_fa": "خرم‌آباد",
+      "name_en": "Khorramabad",
+      "lat": 33.4878,
+      "lon": 48.3558,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 120,
+      "name_fa": "ساری",
+      "name_en": "Sari",
+      "lat": 36.5633,
+      "lon": 53.0601,
+      "tier": 2,
+      "is_alias": false
+    },
+
+    {
+      "id": 121,
+      "name_fa": "گرگان",
+      "name_en": "Gorgan",
+      "lat": 36.8427,
+      "lon": 54.4336,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 122,
+      "name_fa": "بوشهر",
+      "name_en": "Bushehr",
+      "lat": 28.9220,
+      "lon": 50.8203,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 123,
+      "name_fa": "یاسوج",
+      "name_en": "Yasuj",
+      "lat": 30.6684,
+      "lon": 51.5876,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 124,
+      "name_fa": "شهرکرد",
+      "name_en": "Shahrekord",
+      "lat": 32.3269,
+      "lon": 50.8645,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 125,
+      "name_fa": "بیرجند",
+      "name_en": "Birjand",
+      "lat": 32.8663,
+      "lon": 59.2211,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 126,
+      "name_fa": "بجنورد",
+      "name_en": "Bojnurd",
+      "lat": 37.4747,
+      "lon": 57.3290,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 127,
+      "name_fa": "ایلام",
+      "name_en": "Ilam",
+      "lat": 33.6376,
+      "lon": 46.4227,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 128,
+      "name_fa": "سمنان",
+      "name_en": "Semnan",
+      "lat": 35.5723,
+      "lon": 53.3973,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 129,
+      "name_fa": "اردبیل",
+      "name_en": "Ardabil",
+      "lat": 38.2465,
+      "lon": 48.2950,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 130,
+      "name_fa": "یزد",
+      "name_en": "Yazd",
+      "lat": 31.8974,
+      "lon": 54.3569,
+      "tier": 2,
+      "is_alias": false
+    },
+
+    {
+      "id": 131,
+      "name_fa": "اسلامشهر",
+      "name_en": "Eslamshahr",
+      "lat": 35.5150,
+      "lon": 51.2300,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 132,
+      "name_fa": "ملارد",
+      "name_en": "Malard",
+      "lat": 35.6659,
+      "lon": 50.9760,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 133,
+      "name_fa": "ورامین",
+      "name_en": "Varamin",
+      "lat": 35.3252,
+      "lon": 51.6461,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 134,
+      "name_fa": "پاکدشت",
+      "name_en": "Pakdasht",
+      "lat": 35.4811,
+      "lon": 51.6866,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 135,
+      "name_fa": "شهریار",
+      "name_en": "Shahriar",
+      "lat": 35.6590,
+      "lon": 51.0593,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 136,
+      "name_fa": "قدس",
+      "name_en": "Qods",
+      "lat": 35.7200,
+      "lon": 51.1130,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 137,
+      "name_fa": "رباط‌کریم",
+      "name_en": "Robat Karim",
+      "lat": 35.4846,
+      "lon": 51.0827,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 138,
+      "name_fa": "ساوه",
+      "name_en": "Saveh",
+      "lat": 35.0213,
+      "lon": 50.3566,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 139,
+      "name_fa": "کاشان",
+      "name_en": "Kashan",
+      "lat": 33.9850,
+      "lon": 51.4090,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 140,
+      "name_fa": "نجف‌آباد",
+      "name_en": "Najafabad",
+      "lat": 32.6324,
+      "lon": 51.3668,
+      "tier": 3,
+      "is_alias": false
+    },
+
+    {
+      "id": 141,
+      "name_fa": "خمینی‌شهر",
+      "name_en": "Khomeyni Shahr",
+      "lat": 32.7002,
+      "lon": 51.5210,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 142,
+      "name_fa": "آمل",
+      "name_en": "Amol",
+      "lat": 36.4696,
+      "lon": 52.3547,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 143,
+      "name_fa": "بابل",
+      "name_en": "Babol",
+      "lat": 36.5459,
+      "lon": 52.6780,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 144,
+      "name_fa": "قائم‌شهر",
+      "name_en": "Qaemshahr",
+      "lat": 36.4649,
+      "lon": 52.8685,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 145,
+      "name_fa": "نوشهر",
+      "name_en": "Nowshahr",
+      "lat": 36.6489,
+      "lon": 51.4962,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 146,
+      "name_fa": "چالوس",
+      "name_en": "Chalus",
+      "lat": 36.6560,
+      "lon": 51.4204,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 147,
+      "name_fa": "تنکابن",
+      "name_en": "Tonekabon",
+      "lat": 36.8153,
+      "lon": 50.8738,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 148,
+      "name_fa": "لاهیجان",
+      "name_en": "Lahijan",
+      "lat": 37.2030,
+      "lon": 50.0083,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 149,
+      "name_fa": "بندر انزلی",
+      "name_en": "Bandar-e Anzali",
+      "lat": 37.4727,
+      "lon": 49.4587,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 150,
+      "name_fa": "آستارا",
+      "name_en": "Astara",
+      "lat": 38.4297,
+      "lon": 48.8720,
+      "tier": 3,
+      "is_alias": false
+    },
+
+    {
+      "id": 151,
+      "name_fa": "تالش",
+      "name_en": "Talesh",
+      "lat": 37.8000,
+      "lon": 48.9000,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 152,
+      "name_fa": "سبزوار",
+      "name_en": "Sabzevar",
+      "lat": 36.2126,
+      "lon": 57.6819,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 153,
+      "name_fa": "نیشابور",
+      "name_en": "Neyshabur",
+      "lat": 36.2146,
+      "lon": 58.7961,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 154,
+      "name_fa": "تربت حیدریه",
+      "name_en": "Torbat-e Heydarieh",
+      "lat": 35.2740,
+      "lon": 59.2195,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 155,
+      "name_fa": "قوچان",
+      "name_en": "Quchan",
+      "lat": 37.1060,
+      "lon": 58.5095,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 156,
+      "name_fa": "کاشمر",
+      "name_en": "Kashmar",
+      "lat": 35.2383,
+      "lon": 58.4650,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 157,
+      "name_fa": "تربت جام",
+      "name_en": "Torbat-e Jam",
+      "lat": 35.2436,
+      "lon": 60.6225,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 158,
+      "name_fa": "دزفول",
+      "name_en": "Dezful",
+      "lat": 32.3831,
+      "lon": 48.4019,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 159,
+      "name_fa": "آبادان",
+      "name_en": "Abadan",
+      "lat": 30.3473,
+      "lon": 48.2934,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 160,
+      "name_fa": "خرمشهر",
+      "name_en": "Khorramshahr",
+      "lat": 30.4408,
+      "lon": 48.1843,
+      "tier": 3,
+      "is_alias": false
+    },
+
+    {
+      "id": 161,
+      "name_fa": "بهبهان",
+      "name_en": "Behbahan",
+      "lat": 30.5959,
+      "lon": 50.2417,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 162,
+      "name_fa": "مسجدسلیمان",
+      "name_en": "Masjed Soleyman",
+      "lat": 31.9364,
+      "lon": 49.3039,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 163,
+      "name_fa": "اندیمشک",
+      "name_en": "Andimeshk",
+      "lat": 32.4600,
+      "lon": 48.3590,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 164,
+      "name_fa": "شوشتر",
+      "name_en": "Shushtar",
+      "lat": 32.0490,
+      "lon": 48.8560,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 165,
+      "name_fa": "شوش",
+      "name_en": "Shush",
+      "lat": 32.1942,
+      "lon": 48.2436,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 166,
+      "name_fa": "ماهشهر",
+      "name_en": "Mahshahr",
+      "lat": 30.5563,
+      "lon": 49.1885,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 167,
+      "name_fa": "بندر امام خمینی",
+      "name_en": "Bandar Imam Khomeini",
+      "lat": 30.4251,
+      "lon": 49.0719,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 168,
+      "name_fa": "بروجرد",
+      "name_en": "Borujerd",
+      "lat": 33.8953,
+      "lon": 48.7516,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 169,
+      "name_fa": "دورود",
+      "name_en": "Dorud",
+      "lat": 33.4926,
+      "lon": 49.0591,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 170,
+      "name_fa": "الیگودرز",
+      "name_en": "Aligudarz",
+      "lat": 33.4050,
+      "lon": 49.6919,
+      "tier": 3,
+      "is_alias": false
+    },
+
+    {
+      "id": 171,
+      "name_fa": "ملایر",
+      "name_en": "Malayer",
+      "lat": 34.2969,
+      "lon": 48.8235,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 172,
+      "name_fa": "نهاوند",
+      "name_en": "Nahavand",
+      "lat": 34.1885,
+      "lon": 48.3705,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 173,
+      "name_fa": "تویسرکان",
+      "name_en": "Tuyserkan",
+      "lat": 34.5488,
+      "lon": 48.4460,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 174,
+      "name_fa": "رفسنجان",
+      "name_en": "Rafsanjan",
+      "lat": 30.4067,
+      "lon": 55.9939,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 175,
+      "name_fa": "سیرجان",
+      "name_en": "Sirjan",
+      "lat": 29.4520,
+      "lon": 55.6802,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 176,
+      "name_fa": "جیرفت",
+      "name_en": "Jiroft",
+      "lat": 28.6751,
+      "lon": 57.7354,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 177,
+      "name_fa": "بم",
+      "name_en": "Bam",
+      "lat": 29.1060,
+      "lon": 58.3570,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 178,
+      "name_fa": "زرند",
+      "name_en": "Zarand",
+      "lat": 30.8127,
+      "lon": 56.5630,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 179,
+      "name_fa": "شهربابک",
+      "name_en": "Shahr-e Babak",
+      "lat": 30.1175,
+      "lon": 55.1186,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 180,
+      "name_fa": "مرودشت",
+      "name_en": "Marvdasht",
+      "lat": 29.8742,
+      "lon": 52.8020,
+      "tier": 3,
+      "is_alias": false
+    },
+
+    {
+      "id": 181,
+      "name_fa": "کازرون",
+      "name_en": "Kazerun",
+      "lat": 29.6196,
+      "lon": 51.6542,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 182,
+      "name_fa": "فسا",
+      "name_en": "Fasa",
+      "lat": 28.9383,
+      "lon": 53.6482,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 183,
+      "name_fa": "جهرم",
+      "name_en": "Jahrom",
+      "lat": 28.5006,
+      "lon": 53.5600,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 184,
+      "name_fa": "لار",
+      "name_en": "Lar",
+      "lat": 27.6810,
+      "lon": 54.3400,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 185,
+      "name_fa": "داراب",
+      "name_en": "Darab",
+      "lat": 28.7519,
+      "lon": 54.5449,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 186,
+      "name_fa": "آباده",
+      "name_en": "Abadeh",
+      "lat": 31.1608,
+      "lon": 52.6506,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 187,
+      "name_fa": "گچساران",
+      "name_en": "Gachsaran",
+      "lat": 30.3506,
+      "lon": 50.7996,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 188,
+      "name_fa": "دهدشت",
+      "name_en": "Dehdasht",
+      "lat": 30.7948,
+      "lon": 50.5640,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 189,
+      "name_fa": "ایرانشهر",
+      "name_en": "Iranshahr",
+      "lat": 27.2025,
+      "lon": 60.6848,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 190,
+      "name_fa": "چابهار",
+      "name_en": "Chabahar",
+      "lat": 25.2919,
+      "lon": 60.6430,
+      "tier": 3,
+      "is_alias": false
+    },
+
+    {
+      "id": 191,
+      "name_fa": "زابل",
+      "name_en": "Zabol",
+      "lat": 31.0319,
+      "lon": 61.4949,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 192,
+      "name_fa": "سراوان",
+      "name_en": "Saravan",
+      "lat": 27.3710,
+      "lon": 62.3338,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 193,
+      "name_fa": "خاش",
+      "name_en": "Khash",
+      "lat": 28.2211,
+      "lon": 61.2140,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 194,
+      "name_fa": "طبس",
+      "name_en": "Tabas",
+      "lat": 33.5959,
+      "lon": 56.9244,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 195,
+      "name_fa": "قائن",
+      "name_en": "Ghaen",
+      "lat": 33.7264,
+      "lon": 59.1844,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 196,
+      "name_fa": "فردوس",
+      "name_en": "Ferdows",
+      "lat": 34.0186,
+      "lon": 58.1725,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 197,
+      "name_fa": "گنبد کاووس",
+      "name_en": "Gonbad-e Kavus",
+      "lat": 37.2516,
+      "lon": 55.1672,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 198,
+      "name_fa": "علی‌آباد کتول",
+      "name_en": "Aliabad Katoul",
+      "lat": 36.9111,
+      "lon": 54.8667,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 199,
+      "name_fa": "شاهرود",
+      "name_en": "Shahroud",
+      "lat": 36.4182,
+      "lon": 54.9763,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 200,
+      "name_fa": "دامغان",
+      "name_en": "Damghan",
+      "lat": 36.1679,
+      "lon": 54.3429,
+      "tier": 3,
+      "is_alias": false
+    },
+    {
+      "id": 201,
+      "name_fa": "گرمسار",
+      "name_en": "Garmsar",
+      "lat": 35.2180,
+      "lon": 52.3401,
+      "tier": 3,
+      "is_alias": false
     }
   ]
 }
