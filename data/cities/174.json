@@ -1,17 +1,17 @@
 {
-  "city": "شیراز",
-  "city_en": "Shiraz",
-  "lat": 29.5918,
-  "lon": 52.5837,
-  "id": 104,
+  "city": "رفسنجان",
+  "city_en": "Rafsanjan",
+  "lat": 30.4067,
+  "lon": 55.9939,
+  "id": 174,
   "data": {
-    "latitude": 29.5625,
-    "longitude": 52.5625,
-    "generationtime_ms": 0.16760826110839844,
+    "latitude": 30.4375,
+    "longitude": 56.0,
+    "generationtime_ms": 0.2543926239013672,
     "utc_offset_seconds": 12600,
     "timezone": "Asia/Tehran",
     "timezone_abbreviation": "GMT+3:30",
-    "elevation": 1507.0,
+    "elevation": 1515.0,
     "current_weather_units": {
       "time": "iso8601",
       "interval": "seconds",
@@ -24,11 +24,11 @@
     "current_weather": {
       "time": "2026-05-05T19:00",
       "interval": 900,
-      "temperature": 26.9,
-      "windspeed": 14.1,
-      "winddirection": 274,
+      "temperature": 29.0,
+      "windspeed": 10.1,
+      "winddirection": 253,
       "is_day": 0,
-      "weathercode": 0
+      "weathercode": 2
     },
     "daily_units": {
       "time": "iso8601",
@@ -47,27 +47,27 @@
         "2026-05-11"
       ],
       "temperature_2m_max": [
-        32.3,
-        32.6,
-        32.2,
-        32.1,
-        30.3,
-        29.6,
-        31.1
+        34.0,
+        34.7,
+        34.3,
+        34.7,
+        34.7,
+        34.6,
+        35.2
       ],
       "temperature_2m_min": [
-        15.0,
-        14.9,
-        18.0,
-        15.0,
-        16.8,
-        13.9,
-        16.4
+        17.2,
+        19.0,
+        22.4,
+        19.7,
+        20.3,
+        20.5,
+        21.6
       ],
       "precipitation_probability_max": [
         0,
         0,
-        8,
+        3,
         0,
         0,
         0,

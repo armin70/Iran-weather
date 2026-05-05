@@ -1,17 +1,17 @@
 {
-  "city": "شیراز",
-  "city_en": "Shiraz",
-  "lat": 29.5918,
-  "lon": 52.5837,
-  "id": 104,
+  "city": "خاش",
+  "city_en": "Khash",
+  "lat": 28.2211,
+  "lon": 61.214,
+  "id": 193,
   "data": {
-    "latitude": 29.5625,
-    "longitude": 52.5625,
-    "generationtime_ms": 0.16760826110839844,
+    "latitude": 28.224955,
+    "longitude": 61.257076,
+    "generationtime_ms": 3.2340288162231445,
     "utc_offset_seconds": 12600,
     "timezone": "Asia/Tehran",
     "timezone_abbreviation": "GMT+3:30",
-    "elevation": 1507.0,
+    "elevation": 1412.0,
     "current_weather_units": {
       "time": "iso8601",
       "interval": "seconds",
@@ -24,9 +24,9 @@
     "current_weather": {
       "time": "2026-05-05T19:00",
       "interval": 900,
-      "temperature": 26.9,
-      "windspeed": 14.1,
-      "winddirection": 274,
+      "temperature": 28.1,
+      "windspeed": 16.6,
+      "winddirection": 43,
       "is_day": 0,
       "weathercode": 0
     },
@@ -47,27 +47,27 @@
         "2026-05-11"
       ],
       "temperature_2m_max": [
-        32.3,
-        32.6,
-        32.2,
-        32.1,
-        30.3,
-        29.6,
-        31.1
+        32.4,
+        34.7,
+        36.6,
+        36.9,
+        37.8,
+        36.7,
+        35.7
       ],
       "temperature_2m_min": [
-        15.0,
-        14.9,
         18.0,
-        15.0,
-        16.8,
-        13.9,
-        16.4
+        18.7,
+        19.7,
+        21.8,
+        22.8,
+        22.7,
+        22.5
       ],
       "precipitation_probability_max": [
         0,
         0,
-        8,
+        0,
         0,
         0,
         0,

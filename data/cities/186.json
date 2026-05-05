@@ -1,17 +1,17 @@
 {
-  "city": "شیراز",
-  "city_en": "Shiraz",
-  "lat": 29.5918,
-  "lon": 52.5837,
-  "id": 104,
+  "city": "آباده",
+  "city_en": "Abadeh",
+  "lat": 31.1608,
+  "lon": 52.6506,
+  "id": 186,
   "data": {
-    "latitude": 29.5625,
-    "longitude": 52.5625,
-    "generationtime_ms": 0.16760826110839844,
+    "latitude": 31.1875,
+    "longitude": 52.625,
+    "generationtime_ms": 0.7179975509643555,
     "utc_offset_seconds": 12600,
     "timezone": "Asia/Tehran",
     "timezone_abbreviation": "GMT+3:30",
-    "elevation": 1507.0,
+    "elevation": 2008.0,
     "current_weather_units": {
       "time": "iso8601",
       "interval": "seconds",
@@ -24,11 +24,11 @@
     "current_weather": {
       "time": "2026-05-05T19:00",
       "interval": 900,
-      "temperature": 26.9,
-      "windspeed": 14.1,
-      "winddirection": 274,
+      "temperature": 23.6,
+      "windspeed": 20.1,
+      "winddirection": 241,
       "is_day": 0,
-      "weathercode": 0
+      "weathercode": 1
     },
     "daily_units": {
       "time": "iso8601",
@@ -47,29 +47,29 @@
         "2026-05-11"
       ],
       "temperature_2m_max": [
-        32.3,
-        32.6,
-        32.2,
-        32.1,
-        30.3,
-        29.6,
-        31.1
+        27.3,
+        28.4,
+        28.0,
+        26.0,
+        25.7,
+        26.7,
+        28.0
       ],
       "temperature_2m_min": [
-        15.0,
-        14.9,
-        18.0,
-        15.0,
-        16.8,
         13.9,
-        16.4
+        14.7,
+        17.3,
+        14.3,
+        15.5,
+        11.8,
+        14.0
       ],
       "precipitation_probability_max": [
+        5,
         0,
-        0,
-        8,
-        0,
-        0,
+        3,
+        13,
+        3,
         0,
         0
       ]
