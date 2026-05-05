@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-      uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,14 +35,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # اضافه کردن پوشه داده‌ها
           git add data/
 
-          # اگر تغییری نبود، fail نشود
           git commit -m "Auto update weather data" || echo "No changes to commit"
 
-          # جلوگیری از خطای push در صورت اختلاف تاریخچه
-          git pull --rebase origin main
+          git pull --rebase origin main || echo "No pull needed"
 
-          # پوش کردن تغییرات
           git push
