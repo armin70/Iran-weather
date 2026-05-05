@@ -1,0 +1,78 @@
+{
+  "city": "اهواز",
+  "city_en": "Ahvaz",
+  "lat": 31.3183,
+  "lon": 48.6706,
+  "id": 107,
+  "data": {
+    "latitude": 31.3125,
+    "longitude": 48.6875,
+    "generationtime_ms": 0.15270709991455078,
+    "utc_offset_seconds": 12600,
+    "timezone": "Asia/Tehran",
+    "timezone_abbreviation": "GMT+3:30",
+    "elevation": 17.0,
+    "current_weather_units": {
+      "time": "iso8601",
+      "interval": "seconds",
+      "temperature": "°C",
+      "windspeed": "km/h",
+      "winddirection": "°",
+      "is_day": "",
+      "weathercode": "wmo code"
+    },
+    "current_weather": {
+      "time": "2026-05-05T14:30",
+      "interval": 900,
+      "temperature": 43.1,
+      "windspeed": 14.4,
+      "winddirection": 184,
+      "is_day": 1,
+      "weathercode": 1
+    },
+    "daily_units": {
+      "time": "iso8601",
+      "temperature_2m_max": "°C",
+      "temperature_2m_min": "°C",
+      "precipitation_probability_max": "%"
+    },
+    "daily": {
+      "time": [
+        "2026-05-05",
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-09",
+        "2026-05-10",
+        "2026-05-11"
+      ],
+      "temperature_2m_max": [
+        43.1,
+        36.6,
+        38.1,
+        35.7,
+        38.1,
+        40.6,
+        42.9
+      ],
+      "temperature_2m_min": [
+        27.2,
+        25.5,
+        23.0,
+        25.2,
+        24.7,
+        23.3,
+        26.1
+      ],
+      "precipitation_probability_max": [
+        5,
+        3,
+        0,
+        8,
+        1,
+        0,
+        0
+      ]
+    }
+  }
+}

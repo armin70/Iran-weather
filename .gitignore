@@ -3,10 +3,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Data files (generated)
-data/cities/*.json
-data/all.min.json
-
 # Virtual environments
 venv/
 .env/
