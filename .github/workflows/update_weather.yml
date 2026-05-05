@@ -1,0 +1,36 @@
+name: Update Weather Data
+
+on:
+  schedule:
+    - cron: "0 3,15 * * *"   # حدود 06:30 و 18:30 ایران
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch weather
+        run: python scripts/fetch_weather.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "weather-bot"
+          git config user.email "bot@example.com"
+          git status
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git add data
+            git commit -m "update weather data"
+            git push
+          fi

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "cities": [
+    {
+      "id": 101,
+      "name_fa": "تهران",
+      "name_en": "Tehran",
+      "lat": 35.6892,
+      "lon": 51.3890,
+      "tier": 1,
+      "is_alias": false
+    },
+    {
+      "id": 102,
+      "name_fa": "مشهد",
+      "name_en": "Mashhad",
+      "lat": 36.2605,
+      "lon": 59.6168,
+      "tier": 1,
+      "is_alias": false
+    },
+    {
+      "id": 103,
+      "name_fa": "اصفهان",
+      "name_en": "Isfahan",
+      "lat": 32.6539,
+      "lon": 51.6660,
+      "tier": 1,
+      "is_alias": false
+    },
+    {
+      "id": 104,
+      "name_fa": "شیراز",
+      "name_en": "Shiraz",
+      "lat": 29.5918,
+      "lon": 52.5837,
+      "tier": 1,
+      "is_alias": false
+    },
+    {
+      "id": 105,
+      "name_fa": "تبریز",
+      "name_en": "Tabriz",
+      "lat": 38.0962,
+      "lon": 46.2738,
+      "tier": 1,
+      "is_alias": false
+    },
+    {
+      "id": 106,
+      "name_fa": "کرج",
+      "name_en": "Karaj",
+      "lat": 35.8400,
+      "lon": 50.9391,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 107,
+      "name_fa": "اهواز",
+      "name_en": "Ahvaz",
+      "lat": 31.3183,
+      "lon": 48.6706,
+      "tier": 1,
+      "is_alias": false
+    },
+    {
+      "id": 108,
+      "name_fa": "قم",
+      "name_en": "Qom",
+      "lat": 34.6416,
+      "lon": 50.8746,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 109,
+      "name_fa": "رشت",
+      "name_en": "Rasht",
+      "lat": 37.2808,
+      "lon": 49.5832,
+      "tier": 2,
+      "is_alias": false
+    },
+    {
+      "id": 110,
+      "name_fa": "کرمان",
+      "name_en": "Kerman",
+      "lat": 30.2839,
+      "lon": 57.0834,
+      "tier": 2,
+      "is_alias": false
+    }
+  ]
+}
