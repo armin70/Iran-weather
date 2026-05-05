@@ -27,7 +27,19 @@ jobs:
 
       - name: Fetch weather data
         run: |
+          echo "Running fetch..."
           python scripts/fetch_weather.py
+
+      # ✅ این بخش جدید است
+      - name: Debug after fetch
+        run: |
+          echo "------ DEBUG START ------"
+          echo "Current directory:"
+          pwd
+          echo ""
+          echo "Repo structure:"
+          ls -R
+          echo "------ DEBUG END ------"
 
       - name: Build summary
         run: |
