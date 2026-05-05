@@ -5,13 +5,14 @@ import time
 
 CITIES_FILE = "data/cities_meta.json"
 OUTPUT_DIR = "data/cities"
-
 API_URL = "https://api.open-meteo.com/v1/forecast"
+
 
 def load_cities():
     with open(CITIES_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data["cities"]
+
 
 def fetch_weather(lat, lon, retries=3):
     params = {
@@ -27,13 +28,15 @@ def fetch_weather(lat, lon, retries=3):
             r = requests.get(API_URL, params=params, timeout=(5, 10))
             r.raise_for_status()
             return r.json()
+
         except Exception as e:
-            print(f"  ⚠️  Attempt {attempt} failed:", e)
+            print(f"  ⚠️ Attempt {attempt} failed:", e)
             if attempt < retries:
                 time.sleep(1)
             else:
-                print("  ❌ Giving up on this city.")
-                return None  # مهم: اجازه بدهیم اسکریپت ادامه دهد
+                print("  ❌ Giving up for this city.")
+                return None
+
 
 def save_city_weather(city, weather):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -43,6 +46,7 @@ def save_city_weather(city, weather):
         "city_en": city["name_en"],
         "lat": city["lat"],
         "lon": city["lon"],
+        "id": city["id"],
         "data": weather
     }
 
@@ -50,6 +54,7 @@ def save_city_weather(city, weather):
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+
 
 def main():
     cities = load_cities()
@@ -60,12 +65,13 @@ def main():
         weather = fetch_weather(city["lat"], city["lon"])
 
         if weather is None:
-            print("  ⚠️  Skipped due to fetch error.")
+            print("  ⚠️ Skipped due to error")
             continue
 
         save_city_weather(city, weather)
 
     print("Done.")
+
 
 if __name__ == "__main__":
     main()
