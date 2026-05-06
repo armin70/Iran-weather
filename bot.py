@@ -1,22 +1,42 @@
 import requests
 import time
 import re
+import json
 
+# ----------------------------
+# CONFIG
+# ----------------------------
 TOKEN = "1229859473:TgRGJRh7ARWpQpXDP20jmBWmVMhSeiINVlQ"
-
 API_URL = f"https://tapi.bale.ai/bot{TOKEN}"
 
 WEATHER_URL = "https://raw.githubusercontent.com/armin70/Iran-weather/main/data/all.min.json"
+CITIES_FILE = "iran_cities.json"
 
+CACHE_TTL = 120
+
+# ----------------------------
+# GLOBALS
+# ----------------------------
 weather_cache = None
 last_fetch = 0
-CACHE_TTL = 30
+user_state = {}
+provinces_data = {}
 
+# ----------------------------
+# LOAD PROVINCES
+# ----------------------------
+def load_provinces():
+    global provinces_data
+    try:
+        with open(CITIES_FILE, "r", encoding="utf-8") as f:
+            provinces_data = json.load(f)
+    except Exception as e:
+        print("Error loading provinces:", e)
+        provinces_data = {}
 
-# ---------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------
-
+# ----------------------------
+# HELPERS
+# ----------------------------
 def normalize_text(text):
     if not text:
         return ""
@@ -26,48 +46,40 @@ def normalize_text(text):
     return text
 
 
-def extract_city_from_text(text):
+def extract_city(text):
     text = normalize_text(text)
-
-    # حذف کلمات اضافی
-    words_to_remove = ["هوای", "هوا", "weather", "آب‌وهوا", "اب و هوا"]
-    for w in words_to_remove:
+    for w in ["هوای", "هوا", "آب‌وهوا", "اب و هوا"]:
         text = text.replace(w, "")
-
     return text.strip()
 
-
-# ---------------------------------------------------------------
+# ----------------------------
 # API
-# ---------------------------------------------------------------
-
+# ----------------------------
 def get_updates(offset=None):
-    url = f"{API_URL}/getUpdates"
-    params = {"timeout": 30, "offset": offset}
     try:
-        r = requests.get(url, params=params, timeout=35)
-        return r.json()
+        return requests.get(
+            f"{API_URL}/getUpdates",
+            params={"timeout": 30, "offset": offset},
+            timeout=35
+        ).json()
     except:
         return {}
 
 
 def send_message(chat_id, text, keyboard=None):
-    url = f"{API_URL}/sendMessage"
     payload = {"chat_id": chat_id, "text": text}
 
     if keyboard:
         payload["reply_markup"] = keyboard
 
     try:
-        requests.post(url, json=payload, timeout=10)
+        requests.post(f"{API_URL}/sendMessage", json=payload, timeout=10)
     except:
         pass
 
-
-# ---------------------------------------------------------------
-# Weather
-# ---------------------------------------------------------------
-
+# ----------------------------
+# WEATHER
+# ----------------------------
 def load_weather():
     global weather_cache, last_fetch
 
@@ -78,12 +90,10 @@ def load_weather():
 
     try:
         r = requests.get(WEATHER_URL, timeout=10)
-
         if r.status_code != 200:
             return None
 
         data = r.json()
-
         if isinstance(data, list):
             weather_cache = data
             last_fetch = now
@@ -101,22 +111,70 @@ def find_city(query, data):
         fa = normalize_text(c["city"])
         en = normalize_text(c["city_en"])
 
-        if q == fa or q == en:
+        if q == fa or q == en or q in fa or q in en:
             return c
-
     return None
 
+# ----------------------------
+# WEATHER FORMAT
+# ----------------------------
+WEATHER_MAP = {
+    0: "☀️ آسمان صاف",
+    1: "🌤 کمی ابری",
+    2: "⛅ نیمه‌ابری",
+    3: "☁️ ابری",
+    45: "🌫 مه",
+    51: "🌦 نم‌نم باران",
+    61: "🌧 بارانی",
+    71: "🌨 برفی",
+    95: "⛈ طوفانی",
+}
 
-# ---------------------------------------------------------------
-# BUILD CITY KEYBOARD (Dropdown-like)
-# ---------------------------------------------------------------
 
-def build_city_keyboard(cities):
-    keyboard = []
-    row = []
+def clothing_tip(temp):
+    if temp < 10:
+        return "🧥 لباس گرم بپوش"
+    elif temp < 20:
+        return "🧶 لباس نیمه‌گرم"
+    elif temp < 30:
+        return "👕 معمولی"
+    else:
+        return "☀️ لباس خنک"
 
-    for i, c in enumerate(cities):
-        row.append(c["city"])
+
+def format_weather(city):
+    cu = city["current"]
+    to = city["today"]
+    tm = city["tomorrow"]
+    np = city.get("next_period")
+
+    status = WEATHER_MAP.get(cu["code"], "❓")
+
+    next_part = ""
+    if np:
+        next_part = (
+            f"\n⏱ {np['label']}:\n"
+            f"{np['temp']}°C | 🌧 {np['rain']}٪\n"
+        )
+
+    return (
+        f"📍 {city['city']}\n\n"
+        f"🌡 {cu['temp']}°C | 💨 {cu['wind']} km/h\n"
+        f"🌧 {cu['rain']}٪ | {status}\n\n"
+        f"📅 امروز: {to['tmin']}° / {to['tmax']}°\n"
+        f"{next_part}\n"
+        f"🌅 فردا: {tm['tmin']}° / {tm['tmax']}°\n\n"
+        f"{clothing_tip(cu['temp'])}"
+    )
+
+# ----------------------------
+# KEYBOARDS
+# ----------------------------
+def build_province_keyboard():
+    keyboard, row = [], []
+
+    for p in sorted(provinces_data.keys()):
+        row.append(p)
         if len(row) == 2:
             keyboard.append(row)
             row = []
@@ -124,68 +182,31 @@ def build_city_keyboard(cities):
     if row:
         keyboard.append(row)
 
-    return {
-        "keyboard": keyboard,
-        "resize_keyboard": True,
-        "one_time_keyboard": False,
-        "selective": True
-    }
+    return {"keyboard": keyboard, "resize_keyboard": True}
 
 
-# ---------------------------------------------------------------
-# Weather Formatting (PREMIUM VERSION)
-# ---------------------------------------------------------------
+def build_city_keyboard(province):
+    keyboard, row = [], []
 
-def format_weather(c):
-    # انتخاب آیکون بر اساس دما
-    temp = c['temp']
-    if temp <= 0:
-        icon = "❄️"
-    elif temp <= 10:
-        icon = "🌥️"
-    elif temp <= 20:
-        icon = "⛅"
-    elif temp <= 30:
-        icon = "🌤️"
-    else:
-        icon = "🔥"
+    cities = provinces_data.get(province, [])
 
-    return (
-        f"{icon} وضعیت جوی شهر {c['city']}\n\n"
-        f"🌡 دمای فعلی: {c['temp']}°C\n"
-        f"🔺 بیشینه امروز: {c['tmax']}°C\n"
-        f"🔻 کمینه امروز: {c['tmin']}°C\n"
-        f"💨 سرعت باد: {c['wind']} km/h\n"
-        f"🌧 احتمال بارش: {c['rain']}٪\n\n"
-        f"🕒 آخرین به‌روزرسانی داده‌ها: لحظات اخیر\n"
-        f"——————————————\n"
-        f"برای بررسی شهر دیگر، فقط نام آن را بفرستید.\n"
-        f"یا از لیست شهرها استفاده کنید."
-    )
+    for c in cities:
+        row.append(c["name"])
+        if len(row) == 2:
+            keyboard.append(row)
+            row = []
 
+    if row:
+        keyboard.append(row)
 
-def get_weather(text):
-    city_query = extract_city_from_text(text)
+    keyboard.append(["⬅️ بازگشت"])
 
-    if not city_query:
-        return "نام شهر را وارد کنید."
+    return {"keyboard": keyboard, "resize_keyboard": True}
 
-    data = load_weather()
-
-    if not data:
-        return "❗ خطا در دریافت اطلاعات هواشناسی."
-
-    city = find_city(city_query, data)
-
-    if not city:
-        return "❗ شهر پیدا نشد.\nمثال: تهران یا Shiraz"
-
-    return format_weather(city)
-
-
-# ---------------------------------------------------------------
-# Main Loop
-# ---------------------------------------------------------------
+# ----------------------------
+# MAIN
+# ----------------------------
+load_provinces()
 
 offset = None
 
@@ -194,41 +215,78 @@ while True:
 
     if "result" in updates:
         for update in updates["result"]:
-
             offset = update["update_id"] + 1
 
-            message = update.get("message")
-            if not message:
+            msg = update.get("message")
+            if not msg:
                 continue
 
-            chat_id = message["chat"]["id"]
-            text = message.get("text")
+            chat_id = msg["chat"]["id"]
+            text = msg.get("text", "").strip()
 
-            if not text or text.strip() == "":
+            if not text:
                 continue
 
-            text = text.strip()
+            state = user_state.get(chat_id, {})
 
-            # /start
+            # START
             if text == "/start":
-                data = load_weather()
-
-                if not data:
-                    send_message(chat_id, "❗ خطا در بارگذاری لیست شهرها")
-                    continue
-
-                keyboard = build_city_keyboard(data)
+                user_state[chat_id] = {"step": "province"}
 
                 send_message(
                     chat_id,
-                    "سلام 🌦\n"
-                    "از لیست زیر یک شهر را انتخاب کنید یا نام آن را تایپ کنید:",
-                    keyboard
+                    "استان رو انتخاب کن:",
+                    build_province_keyboard()
                 )
                 continue
 
-            # Normal message → search
-            reply = get_weather(text)
-            send_message(chat_id, reply)
+            # BACK
+            if text == "⬅️ بازگشت":
+                user_state[chat_id] = {"step": "province"}
 
-    time.sleep(1)
+                send_message(chat_id, "استان رو انتخاب کن:", build_province_keyboard())
+                continue
+
+            data = load_weather()
+            if not data:
+                send_message(chat_id, "❗ خطا در دریافت داده‌ها")
+                continue
+
+            # STEP 1: PROVINCE
+            if state.get("step") == "province":
+                if text in provinces_data:
+                    user_state[chat_id] = {
+                        "step": "city",
+                        "province": text
+                    }
+
+                    send_message(
+                        chat_id,
+                        f"شهرهای {text}:",
+                        build_city_keyboard(text)
+                    )
+                else:
+                    city = find_city(text, data)
+                    if city:
+                        send_message(chat_id, format_weather(city))
+                    else:
+                        send_message(chat_id, "❗ نامعتبر")
+                continue
+
+            # STEP 2: CITY
+            if state.get("step") == "city":
+                province = state.get("province")
+                cities = [c["name"] for c in provinces_data.get(province, [])]
+
+                if text in cities:
+                    city = find_city(text, data)
+                    if city:
+                        send_message(chat_id, format_weather(city))
+                    else:
+                        send_message(chat_id, "❗ داده هوا نیست")
+                else:
+                    send_message(chat_id, "❗ از لیست انتخاب کن")
+
+                continue
+
+    time.sleep(2)
