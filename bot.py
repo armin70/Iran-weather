@@ -1,7 +1,9 @@
+
 import requests
 import time
 import re
 import json
+import os
 
 # ----------------------------
 # CONFIG
@@ -10,7 +12,9 @@ TOKEN = "1229859473:TgRGJRh7ARWpQpXDP20jmBWmVMhSeiINVlQ"
 API_URL = f"https://tapi.bale.ai/bot{TOKEN}"
 
 WEATHER_URL = "https://raw.githubusercontent.com/armin70/Iran-weather/main/data/all.min.json"
-CITIES_FILE = "iran_cities.json"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CITIES_FILE = os.path.join(BASE_DIR, "iran_cities.json")
 
 CACHE_TTL = 120
 
@@ -204,10 +208,13 @@ def build_city_keyboard(province):
     return {"keyboard": keyboard, "resize_keyboard": True}
 
 # ----------------------------
-# MAIN
+# INIT
 # ----------------------------
 load_provinces()
 
+# ----------------------------
+# MAIN LOOP
+# ----------------------------
 offset = None
 
 while True:
@@ -235,7 +242,7 @@ while True:
 
                 send_message(
                     chat_id,
-                    "استان رو انتخاب کن:",
+                    "سلام 🌦\nاستان رو انتخاب کن:",
                     build_province_keyboard()
                 )
                 continue
@@ -244,7 +251,11 @@ while True:
             if text == "⬅️ بازگشت":
                 user_state[chat_id] = {"step": "province"}
 
-                send_message(chat_id, "استان رو انتخاب کن:", build_province_keyboard())
+                send_message(
+                    chat_id,
+                    "استان رو انتخاب کن:",
+                    build_province_keyboard()
+                )
                 continue
 
             data = load_weather()
@@ -252,7 +263,7 @@ while True:
                 send_message(chat_id, "❗ خطا در دریافت داده‌ها")
                 continue
 
-            # STEP 1: PROVINCE
+            # STEP: PROVINCE
             if state.get("step") == "province":
                 if text in provinces_data:
                     user_state[chat_id] = {
@@ -266,6 +277,7 @@ while True:
                         build_city_keyboard(text)
                     )
                 else:
+                    # fallback مستقیم شهر
                     city = find_city(text, data)
                     if city:
                         send_message(chat_id, format_weather(city))
@@ -273,7 +285,7 @@ while True:
                         send_message(chat_id, "❗ نامعتبر")
                 continue
 
-            # STEP 2: CITY
+            # STEP: CITY
             if state.get("step") == "city":
                 province = state.get("province")
                 cities = [c["name"] for c in provinces_data.get(province, [])]

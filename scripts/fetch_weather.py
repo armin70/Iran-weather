@@ -88,7 +88,8 @@ def main():
         save_city_weather(city, weather)
 
     print("Done.")
-
+    print(type(data))
+    print(data.keys() if isinstance(data, dict) else "NOT DICT")
 
 if __name__ == "__main__":
     main()

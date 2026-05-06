@@ -1,0 +1,2664 @@
+{
+  "قزوین": [
+    {
+      "geonameid": "144795",
+      "name": "آبيِكِ",
+      "province": "قزوین",
+      "lat": 36.03993,
+      "lon": 50.53101,
+      "population": 60107
+    },
+    {
+      "geonameid": "10570",
+      "name": "الوند",
+      "province": "قزوین",
+      "lat": 36.1893,
+      "lon": 50.0643,
+      "population": 90000
+    },
+    {
+      "geonameid": "113491",
+      "name": "تاكستان",
+      "province": "قزوین",
+      "lat": 36.07057,
+      "lon": 49.69571,
+      "population": 71499
+    },
+    {
+      "geonameid": "114106",
+      "name": "سلطان آباد اقبالیه",
+      "province": "قزوین",
+      "lat": 36.23081,
+      "lon": 49.92499,
+      "population": 55066
+    },
+    {
+      "geonameid": "115382",
+      "name": "شریف آباد",
+      "province": "قزوین",
+      "lat": 36.21167,
+      "lon": 50.14999,
+      "population": 20347
+    },
+    {
+      "geonameid": "6659981",
+      "name": "شهرک محمدیه",
+      "province": "قزوین",
+      "lat": 36.22374,
+      "lon": 50.18247,
+      "population": 90513
+    },
+    {
+      "geonameid": "119505",
+      "name": "قزوین",
+      "province": "قزوین",
+      "lat": 36.26877,
+      "lon": 50.0041,
+      "population": 333635
+    }
+  ],
+  "همدان": [
+    {
+      "geonameid": "14256",
+      "name": "آزادشهر",
+      "province": "همدان",
+      "lat": 34.79049,
+      "lon": 48.57011,
+      "population": 514102
+    },
+    {
+      "geonameid": "142872",
+      "name": "اسد آباد",
+      "province": "همدان",
+      "lat": 34.78241,
+      "lon": 48.12012,
+      "population": 55703
+    },
+    {
+      "geonameid": "142000",
+      "name": "بهار",
+      "province": "همدان",
+      "lat": 34.9072,
+      "lon": 48.4414,
+      "population": 28645
+    },
+    {
+      "geonameid": "112422",
+      "name": "تُّيسِركَن",
+      "province": "همدان",
+      "lat": 34.551,
+      "lon": 48.44353,
+      "population": 50455
+    },
+    {
+      "geonameid": "125185",
+      "name": "ملایر",
+      "province": "همدان",
+      "lat": 34.30158,
+      "lon": 48.82166,
+      "population": 176573
+    },
+    {
+      "geonameid": "122915",
+      "name": "نهاوند",
+      "province": "همدان",
+      "lat": 34.19088,
+      "lon": 48.37446,
+      "population": 76250
+    },
+    {
+      "geonameid": "132144",
+      "name": "همدان",
+      "province": "همدان",
+      "lat": 34.79922,
+      "lon": 48.51456,
+      "population": 528256
+    }
+  ],
+  "لرستان": [
+    {
+      "geonameid": "142496",
+      "name": "ازنا",
+      "province": "لرستان",
+      "lat": 33.6095,
+      "lon": 48.9307,
+      "population": 47482
+    },
+    {
+      "geonameid": "142497",
+      "name": "ازنا",
+      "province": "لرستان",
+      "lat": 33.45643,
+      "lon": 49.45646,
+      "population": 47489
+    },
+    {
+      "geonameid": "144269",
+      "name": "الشتر",
+      "province": "لرستان",
+      "lat": 33.86419,
+      "lon": 48.26258,
+      "population": 27701
+    },
+    {
+      "geonameid": "143921",
+      "name": "الیگودرز",
+      "province": "لرستان",
+      "lat": 33.404,
+      "lon": 49.69179,
+      "population": 91041
+    },
+    {
+      "geonameid": "140044",
+      "name": "بروجرد",
+      "province": "لرستان",
+      "lat": 33.8973,
+      "lon": 48.7516,
+      "population": 251958
+    },
+    {
+      "geonameid": "127349",
+      "name": "خرم آباد",
+      "province": "لرستان",
+      "lat": 33.48778,
+      "lon": 48.35583,
+      "population": 329825
+    },
+    {
+      "geonameid": "135878",
+      "name": "دورود",
+      "province": "لرستان",
+      "lat": 33.49218,
+      "lon": 49.0616,
+      "population": 121638
+    },
+    {
+      "geonameid": "24851",
+      "name": "نور آباد",
+      "province": "لرستان",
+      "lat": 34.0734,
+      "lon": 47.9725,
+      "population": 73528
+    },
+    {
+      "geonameid": "120949",
+      "name": "پل دختر",
+      "province": "لرستان",
+      "lat": 33.15249,
+      "lon": 47.71014,
+      "population": 26352
+    },
+    {
+      "geonameid": "126409",
+      "name": "کوهدشت",
+      "province": "لرستان",
+      "lat": 33.53335,
+      "lon": 47.60999,
+      "population": 89091
+    }
+  ],
+  "کرمانشاه": [
+    {
+      "geonameid": "130245",
+      "name": "Javānrūd",
+      "province": "کرمانشاه",
+      "lat": 34.79611,
+      "lon": 46.51722,
+      "population": 38657
+    },
+    {
+      "geonameid": "128226",
+      "name": "استان کرمانشاه",
+      "province": "کرمانشاه",
+      "lat": 34.31417,
+      "lon": 47.065,
+      "population": 621100
+    },
+    {
+      "geonameid": "135175",
+      "name": "اسلام آباد غرب",
+      "province": "کرمانشاه",
+      "lat": 34.1089,
+      "lon": 46.52988,
+      "population": 90559
+    },
+    {
+      "geonameid": "25883",
+      "name": "جوانرود",
+      "province": "کرمانشاه",
+      "lat": 34.8067,
+      "lon": 46.4913,
+      "population": 54354
+    },
+    {
+      "geonameid": "118705",
+      "name": "روانسر",
+      "province": "کرمانشاه",
+      "lat": 34.7153,
+      "lon": 46.6533,
+      "population": 24527
+    },
+    {
+      "geonameid": "120931",
+      "name": "سر پل ذهاب",
+      "province": "کرمانشاه",
+      "lat": 34.46109,
+      "lon": 45.86264,
+      "population": 51611
+    },
+    {
+      "geonameid": "114049",
+      "name": "سنقر",
+      "province": "کرمانشاه",
+      "lat": 34.78187,
+      "lon": 47.59945,
+      "population": 43174
+    },
+    {
+      "geonameid": "117835",
+      "name": "صحنه",
+      "province": "کرمانشاه",
+      "lat": 34.4813,
+      "lon": 47.6908,
+      "population": 35508
+    },
+    {
+      "geonameid": "131962",
+      "name": "هرسین",
+      "province": "کرمانشاه",
+      "lat": 34.2721,
+      "lon": 47.5861,
+      "population": 57647
+    },
+    {
+      "geonameid": "128831",
+      "name": "کنگاور",
+      "province": "کرمانشاه",
+      "lat": 34.5043,
+      "lon": 47.9653,
+      "population": 51352
+    }
+  ],
+  "سمنان": [
+    {
+      "geonameid": "138025",
+      "name": "دامغان",
+      "province": "سمنان",
+      "lat": 36.1679,
+      "lon": 54.34292,
+      "population": 67694
+    },
+    {
+      "geonameid": "116402",
+      "name": "سمنان",
+      "province": "سمنان",
+      "lat": 35.57691,
+      "lon": 53.39205,
+      "population": 124826
+    },
+    {
+      "geonameid": "7100777",
+      "name": "سنگسر",
+      "province": "سمنان",
+      "lat": 35.71071,
+      "lon": 53.35394,
+      "population": 21000
+    },
+    {
+      "geonameid": "135423",
+      "name": "شاهرود",
+      "province": "سمنان",
+      "lat": 36.41819,
+      "lon": 54.97628,
+      "population": 131889
+    },
+    {
+      "geonameid": "32723",
+      "name": "يستگاهِ راهاهَنِ گَرمسار",
+      "province": "سمنان",
+      "lat": 35.23455,
+      "lon": 52.30942,
+      "population": 49491
+    }
+  ],
+  "تهران": [
+    {
+      "geonameid": "13562246",
+      "name": "Bāghestān",
+      "province": "تهران",
+      "lat": 35.64706,
+      "lon": 51.13378,
+      "population": 83934
+    },
+    {
+      "geonameid": "13405749",
+      "name": "Nasimshahr",
+      "province": "تهران",
+      "lat": 35.56528,
+      "lon": 51.1583,
+      "population": 200393
+    },
+    {
+      "geonameid": "449504",
+      "name": "اسلامشهر",
+      "province": "تهران",
+      "lat": 35.55222,
+      "lon": 51.23504,
+      "population": 450000
+    },
+    {
+      "geonameid": "406993",
+      "name": "اقباليّه",
+      "province": "تهران",
+      "lat": 35.3022,
+      "lon": 51.5358,
+      "population": 36709
+    },
+    {
+      "geonameid": "10865375",
+      "name": "اندیشه",
+      "province": "تهران",
+      "lat": 35.74708,
+      "lon": 51.27739,
+      "population": 116062
+    },
+    {
+      "geonameid": "6672634",
+      "name": "اکبر آباد",
+      "province": "تهران",
+      "lat": 35.56504,
+      "lon": 51.16332,
+      "population": 200393
+    },
+    {
+      "geonameid": "400809",
+      "name": "باقِرابادِ باقِرُف",
+      "province": "تهران",
+      "lat": 35.53164,
+      "lon": 51.4048,
+      "population": 65388
+    },
+    {
+      "geonameid": "139879",
+      "name": "بومِ هِن",
+      "province": "تهران",
+      "lat": 35.72972,
+      "lon": 51.86884,
+      "population": 79034
+    },
+    {
+      "geonameid": "113514",
+      "name": "تجريش",
+      "province": "تهران",
+      "lat": 35.8044,
+      "lon": 51.4256,
+      "population": 86000
+    },
+    {
+      "geonameid": "112931",
+      "name": "تهران",
+      "province": "تهران",
+      "lat": 35.69439,
+      "lon": 51.42151,
+      "population": 7153309
+    },
+    {
+      "geonameid": "138042",
+      "name": "دماوند",
+      "province": "تهران",
+      "lat": 35.71842,
+      "lon": 52.06958,
+      "population": 29144
+    },
+    {
+      "geonameid": "118367",
+      "name": "رباط كريم",
+      "province": "تهران",
+      "lat": 35.4846,
+      "lon": 51.0829,
+      "population": 62753
+    },
+    {
+      "geonameid": "118223",
+      "name": "رودهن",
+      "province": "تهران",
+      "lat": 35.73338,
+      "lon": 51.90587,
+      "population": 28533
+    },
+    {
+      "geonameid": "32909",
+      "name": "شهر جدید اندیشه",
+      "province": "تهران",
+      "lat": 35.6803,
+      "lon": 51.0193,
+      "population": 116062
+    },
+    {
+      "geonameid": "6681051",
+      "name": "شهر جدید پردیس",
+      "province": "تهران",
+      "lat": 35.74687,
+      "lon": 51.81222,
+      "population": 73363
+    },
+    {
+      "geonameid": "6659672",
+      "name": "شهر جدید پرند",
+      "province": "تهران",
+      "lat": 35.47195,
+      "lon": 50.97547,
+      "population": 97464
+    },
+    {
+      "geonameid": "120292",
+      "name": "شهرك قدس",
+      "province": "تهران",
+      "lat": 35.7214,
+      "lon": 51.109,
+      "population": 309605
+    },
+    {
+      "geonameid": "32900",
+      "name": "شهرك گلستان",
+      "province": "تهران",
+      "lat": 35.5183,
+      "lon": 51.1819,
+      "population": 240000
+    },
+    {
+      "geonameid": "143860",
+      "name": "شهريار",
+      "province": "تهران",
+      "lat": 35.65884,
+      "lon": 51.05775,
+      "population": 309607
+    },
+    {
+      "geonameid": "32843",
+      "name": "شهرک صالح آباد",
+      "province": "تهران",
+      "lat": 35.50527,
+      "lon": 51.19142,
+      "population": 58683
+    },
+    {
+      "geonameid": "400833",
+      "name": "شهرک قيام دشت",
+      "province": "تهران",
+      "lat": 35.5237,
+      "lon": 51.6505,
+      "population": 36446
+    },
+    {
+      "geonameid": "8080737",
+      "name": "علائين",
+      "province": "تهران",
+      "lat": 35.58231,
+      "lon": 51.45559,
+      "population": 21594
+    },
+    {
+      "geonameid": "406472",
+      "name": "عَليابادِ دِرازِه",
+      "province": "تهران",
+      "lat": 35.5729,
+      "lon": 51.085,
+      "population": 25544
+    },
+    {
+      "geonameid": "33069",
+      "name": "فردوس",
+      "province": "تهران",
+      "lat": 35.6011,
+      "lon": 51.0645,
+      "population": 34221
+    },
+    {
+      "geonameid": "6657205",
+      "name": "فردیس",
+      "province": "تهران",
+      "lat": 35.7555,
+      "lon": 50.9967,
+      "population": 181174
+    },
+    {
+      "geonameid": "134598",
+      "name": "فرون آباد",
+      "province": "تهران",
+      "lat": 35.5156,
+      "lon": 51.6232,
+      "population": 21682
+    },
+    {
+      "geonameid": "6672633",
+      "name": "قاسم آباد",
+      "province": "تهران",
+      "lat": 35.58026,
+      "lon": 51.11392,
+      "population": 53971
+    },
+    {
+      "geonameid": "32767",
+      "name": "قرچك",
+      "province": "تهران",
+      "lat": 35.42873,
+      "lon": 51.57757,
+      "population": 251834
+    },
+    {
+      "geonameid": "129664",
+      "name": "كَهريزَك",
+      "province": "تهران",
+      "lat": 35.3465,
+      "lon": 51.84418,
+      "population": 37527
+    },
+    {
+      "geonameid": "124838",
+      "name": "ماهدشت",
+      "province": "تهران",
+      "lat": 35.7282,
+      "lon": 50.8134,
+      "population": 62910
+    },
+    {
+      "geonameid": "7465130",
+      "name": "مجتمع مسکونی نامجو",
+      "province": "تهران",
+      "lat": 35.4723,
+      "lon": 51.724,
+      "population": 22990
+    },
+    {
+      "geonameid": "125188",
+      "name": "ملارد",
+      "province": "تهران",
+      "lat": 35.6659,
+      "lon": 50.9767,
+      "population": 56745
+    },
+    {
+      "geonameid": "123205",
+      "name": "مِشگين آباد",
+      "province": "تهران",
+      "lat": 35.74988,
+      "lon": 50.94376,
+      "population": 62005
+    },
+    {
+      "geonameid": "406462",
+      "name": "نَصيرابادِ بَدِر",
+      "province": "تهران",
+      "lat": 35.6102,
+      "lon": 51.1611,
+      "population": 119512
+    },
+    {
+      "geonameid": "404592",
+      "name": "وحيديه",
+      "province": "تهران",
+      "lat": 35.71445,
+      "lon": 51.47086,
+      "population": 33249
+    },
+    {
+      "geonameid": "112214",
+      "name": "ورامين",
+      "province": "تهران",
+      "lat": 35.3242,
+      "lon": 51.6457,
+      "population": 179603
+    },
+    {
+      "geonameid": "9478811",
+      "name": "پاکدشت",
+      "province": "تهران",
+      "lat": 35.47854,
+      "lon": 51.6834,
+      "population": 236319
+    },
+    {
+      "geonameid": "120972",
+      "name": "پيشوا",
+      "province": "تهران",
+      "lat": 35.308,
+      "lon": 51.7267,
+      "population": 53856
+    }
+  ],
+  "خوزستان": [
+    {
+      "geonameid": "36618",
+      "name": "Dezfūl",
+      "province": "خوزستان",
+      "lat": 32.41667,
+      "lon": 48.21667,
+      "population": 264709
+    },
+    {
+      "geonameid": "145459",
+      "name": "Ābādān",
+      "province": "خوزستان",
+      "lat": 30.3392,
+      "lon": 48.3043,
+      "population": 370180
+    },
+    {
+      "geonameid": "144696",
+      "name": "Āghājārī",
+      "province": "خوزستان",
+      "lat": 30.7006,
+      "lon": 49.8315,
+      "population": 21785
+    },
+    {
+      "geonameid": "130697",
+      "name": "Īz̄eh",
+      "province": "خوزستان",
+      "lat": 31.83027,
+      "lon": 49.86756,
+      "population": 119399
+    },
+    {
+      "geonameid": "121861",
+      "name": "امیدیه",
+      "province": "خوزستان",
+      "lat": 30.76277,
+      "lon": 49.70226,
+      "population": 46983
+    },
+    {
+      "geonameid": "143420",
+      "name": "اندیمشک",
+      "province": "خوزستان",
+      "lat": 32.4615,
+      "lon": 48.35368,
+      "population": 135116
+    },
+    {
+      "geonameid": "144448",
+      "name": "اهواز",
+      "province": "خوزستان",
+      "lat": 31.31901,
+      "lon": 48.6842,
+      "population": 841145
+    },
+    {
+      "geonameid": "142114",
+      "name": "باغ ملک",
+      "province": "خوزستان",
+      "lat": 31.52398,
+      "lon": 49.88558,
+      "population": 26343
+    },
+    {
+      "geonameid": "127319",
+      "name": "بندر خرمشهر",
+      "province": "خوزستان",
+      "lat": 30.44079,
+      "lon": 48.18428,
+      "population": 330606
+    },
+    {
+      "geonameid": "141663",
+      "name": "بندر ماهشهر",
+      "province": "خوزستان",
+      "lat": 30.55655,
+      "lon": 49.18852,
+      "population": 162797
+    },
+    {
+      "geonameid": "8521444",
+      "name": "بندرامام خمینی",
+      "province": "خوزستان",
+      "lat": 30.43698,
+      "lon": 49.10288,
+      "population": 78353
+    },
+    {
+      "geonameid": "140951",
+      "name": "بهبهان",
+      "province": "خوزستان",
+      "lat": 30.5959,
+      "lon": 50.2417,
+      "population": 79327
+    },
+    {
+      "geonameid": "132105",
+      "name": "حمیدیه",
+      "province": "خوزستان",
+      "lat": 31.48285,
+      "lon": 48.4332,
+      "population": 22057
+    },
+    {
+      "geonameid": "118826",
+      "name": "رامهرمز",
+      "province": "خوزستان",
+      "lat": 31.27997,
+      "lon": 49.60351,
+      "population": 74285
+    },
+    {
+      "geonameid": "137268",
+      "name": "سوسنگرد",
+      "province": "خوزستان",
+      "lat": 31.5635,
+      "lon": 48.18958,
+      "population": 41443
+    },
+    {
+      "geonameid": "116102",
+      "name": "شادگان",
+      "province": "خوزستان",
+      "lat": 30.64924,
+      "lon": 48.66497,
+      "population": 41733
+    },
+    {
+      "geonameid": "6648117",
+      "name": "شهرک شهید چمران",
+      "province": "خوزستان",
+      "lat": 30.70838,
+      "lon": 49.16266,
+      "population": 33505
+    },
+    {
+      "geonameid": "45628",
+      "name": "شهرک طالقانی",
+      "province": "خوزستان",
+      "lat": 30.835,
+      "lon": 50.19873,
+      "population": 25808
+    },
+    {
+      "geonameid": "114593",
+      "name": "شوش",
+      "province": "خوزستان",
+      "lat": 32.1942,
+      "lon": 48.2436,
+      "population": 52284
+    },
+    {
+      "geonameid": "114584",
+      "name": "شوشتر",
+      "province": "خوزستان",
+      "lat": 32.04972,
+      "lon": 48.84843,
+      "population": 77507
+    },
+    {
+      "geonameid": "6648621",
+      "name": "شیبان",
+      "province": "خوزستان",
+      "lat": 31.40794,
+      "lon": 48.7946,
+      "population": 36374
+    },
+    {
+      "geonameid": "124620",
+      "name": "مسجد سلیمان",
+      "province": "خوزستان",
+      "lat": 31.9364,
+      "lon": 49.3039,
+      "population": 111510
+    },
+    {
+      "geonameid": "131559",
+      "name": "هندیجان",
+      "province": "خوزستان",
+      "lat": 30.2363,
+      "lon": 49.7119,
+      "population": 29015
+    },
+    {
+      "geonameid": "126082",
+      "name": "کوت عبدالله",
+      "province": "خوزستان",
+      "lat": 31.23917,
+      "lon": 48.65639,
+      "population": 56252
+    },
+    {
+      "geonameid": "133884",
+      "name": "گتوند",
+      "province": "خوزستان",
+      "lat": 32.24585,
+      "lon": 48.81315,
+      "population": 24216
+    }
+  ],
+  "زنجان": [
+    {
+      "geonameid": "145034",
+      "name": "ابهر",
+      "province": "زنجان",
+      "lat": 36.1468,
+      "lon": 49.218,
+      "population": 69889
+    },
+    {
+      "geonameid": "143748",
+      "name": "الوند",
+      "province": "زنجان",
+      "lat": 36.31885,
+      "lon": 49.16773,
+      "population": 74889
+    },
+    {
+      "geonameid": "41210",
+      "name": "خرمدره",
+      "province": "زنجان",
+      "lat": 36.20777,
+      "lon": 49.19527,
+      "population": 50528
+    },
+    {
+      "geonameid": "111453",
+      "name": "زنجان",
+      "province": "زنجان",
+      "lat": 36.67642,
+      "lon": 48.49628,
+      "population": 357471
+    },
+    {
+      "geonameid": "119369",
+      "name": "قيدَر",
+      "province": "زنجان",
+      "lat": 36.11472,
+      "lon": 48.59111,
+      "population": 34921
+    }
+  ],
+  "البرز": [
+    {
+      "geonameid": "135205",
+      "name": "اشتهارد",
+      "province": "البرز",
+      "lat": 35.7255,
+      "lon": 50.3662,
+      "population": 29993
+    },
+    {
+      "geonameid": "8535197",
+      "name": "شهر جدید مهستان",
+      "province": "البرز",
+      "lat": 35.98907,
+      "lon": 50.74512,
+      "population": 85200
+    },
+    {
+      "geonameid": "41548",
+      "name": "كَمال آباد",
+      "province": "البرز",
+      "lat": 35.86187,
+      "lon": 50.87424,
+      "population": 141669
+    },
+    {
+      "geonameid": "400771",
+      "name": "محمد شهر",
+      "province": "البرز",
+      "lat": 35.763,
+      "lon": 50.9171,
+      "population": 119418
+    },
+    {
+      "geonameid": "122438",
+      "name": "نَظَراباد",
+      "province": "البرز",
+      "lat": 35.95411,
+      "lon": 50.60607,
+      "population": 213388
+    },
+    {
+      "geonameid": "131691",
+      "name": "هشتگرد",
+      "province": "البرز",
+      "lat": 35.962,
+      "lon": 50.6799,
+      "population": 55640
+    },
+    {
+      "geonameid": "128747",
+      "name": "کرج",
+      "province": "البرز",
+      "lat": 35.83266,
+      "lon": 50.99155,
+      "population": 1448075
+    },
+    {
+      "geonameid": "400773",
+      "name": "گرمدره",
+      "province": "البرز",
+      "lat": 35.74803,
+      "lon": 51.06865,
+      "population": 22726
+    }
+  ],
+  "فارس": [
+    {
+      "geonameid": "137956",
+      "name": "Dārāb",
+      "province": "فارس",
+      "lat": 28.75171,
+      "lon": 54.54065,
+      "population": 63319
+    },
+    {
+      "geonameid": "134518",
+      "name": "Fīrūzābād",
+      "province": "فارس",
+      "lat": 28.84459,
+      "lon": 52.57151,
+      "population": 66558
+    },
+    {
+      "geonameid": "121925",
+      "name": "Nūrābād",
+      "province": "فارس",
+      "lat": 30.11405,
+      "lon": 51.52174,
+      "population": 57058
+    },
+    {
+      "geonameid": "401202",
+      "name": "Pāsārgād",
+      "province": "فارس",
+      "lat": 30.20194,
+      "lon": 53.18,
+      "population": 29825
+    },
+    {
+      "geonameid": "48918",
+      "name": "آباده",
+      "province": "فارس",
+      "lat": 28.8349,
+      "lon": 53.1726,
+      "population": 59116
+    },
+    {
+      "geonameid": "145449",
+      "name": "آباده",
+      "province": "فارس",
+      "lat": 31.1608,
+      "lon": 52.6506,
+      "population": 59116
+    },
+    {
+      "geonameid": "135094",
+      "name": "استهبان",
+      "province": "فارس",
+      "lat": 29.1266,
+      "lon": 54.0421,
+      "population": 36410
+    },
+    {
+      "geonameid": "130531",
+      "name": "جهرم",
+      "province": "فارس",
+      "lat": 28.5,
+      "lon": 53.5605,
+      "population": 141634
+    },
+    {
+      "geonameid": "113723",
+      "name": "سوریان",
+      "province": "فارس",
+      "lat": 30.4551,
+      "lon": 53.651,
+      "population": 20000
+    },
+    {
+      "geonameid": "115019",
+      "name": "شیراز",
+      "province": "فارس",
+      "lat": 29.61031,
+      "lon": 52.53113,
+      "population": 1249942
+    },
+    {
+      "geonameid": "134781",
+      "name": "فراشبند",
+      "province": "فارس",
+      "lat": 28.86012,
+      "lon": 52.09452,
+      "population": 20320
+    },
+    {
+      "geonameid": "134721",
+      "name": "فسا",
+      "province": "فارس",
+      "lat": 28.9383,
+      "lon": 53.6482,
+      "population": 98061
+    },
+    {
+      "geonameid": "119264",
+      "name": "قیر",
+      "province": "فارس",
+      "lat": 28.4825,
+      "lon": 53.0346,
+      "population": 20010
+    },
+    {
+      "geonameid": "128321",
+      "name": "كازرون",
+      "province": "فارس",
+      "lat": 29.61919,
+      "lon": 51.6535,
+      "population": 94511
+    },
+    {
+      "geonameid": "125877",
+      "name": "لار",
+      "province": "فارس",
+      "lat": 27.68336,
+      "lon": 54.34172,
+      "population": 62045
+    },
+    {
+      "geonameid": "125926",
+      "name": "لامرد",
+      "province": "فارس",
+      "lat": 27.334,
+      "lon": 53.179,
+      "population": 29380
+    },
+    {
+      "geonameid": "124721",
+      "name": "مرودشت",
+      "province": "فارس",
+      "lat": 29.87407,
+      "lon": 52.80258,
+      "population": 148858
+    },
+    {
+      "geonameid": "122289",
+      "name": "نیریز",
+      "province": "فارس",
+      "lat": 29.1988,
+      "lon": 54.3278,
+      "population": 45506
+    },
+    {
+      "geonameid": "44439",
+      "name": "کوار",
+      "province": "فارس",
+      "lat": 29.20505,
+      "lon": 52.69043,
+      "population": 31711
+    },
+    {
+      "geonameid": "133595",
+      "name": "گراش",
+      "province": "فارس",
+      "lat": 27.66966,
+      "lon": 54.13586,
+      "population": 34469
+    }
+  ],
+  "کهگیلویه و بویراحمد": [
+    {
+      "geonameid": "136014",
+      "name": "دُو گُنبَدان",
+      "province": "کهگیلویه و بویراحمد",
+      "lat": 30.3586,
+      "lon": 50.7981,
+      "population": 94638
+    },
+    {
+      "geonameid": "136987",
+      "name": "دِهدَست",
+      "province": "کهگیلویه و بویراحمد",
+      "lat": 30.79337,
+      "lon": 50.56508,
+      "population": 69726
+    },
+    {
+      "geonameid": "66093",
+      "name": "ياسوج",
+      "province": "کهگیلویه و بویراحمد",
+      "lat": 30.66824,
+      "lon": 51.58796,
+      "population": 96786
+    }
+  ],
+  "گلستان": [
+    {
+      "geonameid": "7329809",
+      "name": "آق قلا",
+      "province": "گلستان",
+      "lat": 37.0139,
+      "lon": 54.45504,
+      "population": 35116
+    },
+    {
+      "geonameid": "132892",
+      "name": "اَستِر آباد",
+      "province": "گلستان",
+      "lat": 36.8427,
+      "lon": 54.44391,
+      "population": 244937
+    },
+    {
+      "geonameid": "141673",
+      "name": "بندر گز",
+      "province": "گلستان",
+      "lat": 36.77409,
+      "lon": 53.94798,
+      "population": 20742
+    },
+    {
+      "geonameid": "141653",
+      "name": "بَندَرِ تُركمَن",
+      "province": "گلستان",
+      "lat": 36.90124,
+      "lon": 54.07195,
+      "population": 53970
+    },
+    {
+      "geonameid": "110831",
+      "name": "شاه پسند",
+      "province": "گلستان",
+      "lat": 37.08641,
+      "lon": 55.17222,
+      "population": 47590
+    },
+    {
+      "geonameid": "126572",
+      "name": "كردكوی",
+      "province": "گلستان",
+      "lat": 36.79307,
+      "lon": 54.11214,
+      "population": 39881
+    },
+    {
+      "geonameid": "129512",
+      "name": "كلاله",
+      "province": "گلستان",
+      "lat": 37.37899,
+      "lon": 55.493,
+      "population": 33700
+    },
+    {
+      "geonameid": "123927",
+      "name": "مينودشت",
+      "province": "گلستان",
+      "lat": 37.23015,
+      "lon": 55.37211,
+      "population": 30085
+    },
+    {
+      "geonameid": "134282",
+      "name": "گاليكش",
+      "province": "گلستان",
+      "lat": 37.27259,
+      "lon": 55.43394,
+      "population": 23394
+    },
+    {
+      "geonameid": "132938",
+      "name": "گنبد کاووس",
+      "province": "گلستان",
+      "lat": 37.25004,
+      "lon": 55.16721,
+      "population": 131416
+    }
+  ],
+  "کرمان": [
+    {
+      "geonameid": "114259",
+      "name": "Sa‘īdābād",
+      "province": "کرمان",
+      "lat": 29.45137,
+      "lon": 55.6809,
+      "population": 207645
+    },
+    {
+      "geonameid": "142247",
+      "name": "بافت",
+      "province": "کرمان",
+      "lat": 29.2331,
+      "lon": 56.6022,
+      "population": 34517
+    },
+    {
+      "geonameid": "124647",
+      "name": "بردسیر",
+      "province": "کرمان",
+      "lat": 29.92266,
+      "lon": 56.57433,
+      "population": 37192
+    },
+    {
+      "geonameid": "141407",
+      "name": "بروات",
+      "province": "کرمان",
+      "lat": 29.0663,
+      "lon": 58.4046,
+      "population": 22761
+    },
+    {
+      "geonameid": "141736",
+      "name": "بم",
+      "province": "کرمان",
+      "lat": 29.106,
+      "lon": 58.357,
+      "population": 99268
+    },
+    {
+      "geonameid": "6925362",
+      "name": "جیرفت",
+      "province": "کرمان",
+      "lat": 28.67806,
+      "lon": 57.74056,
+      "population": 130429
+    },
+    {
+      "geonameid": "118704",
+      "name": "راور",
+      "province": "کرمان",
+      "lat": 31.26562,
+      "lon": 56.80545,
+      "population": 40167
+    },
+    {
+      "geonameid": "118994",
+      "name": "رفسنجان",
+      "province": "کرمان",
+      "lat": 30.4067,
+      "lon": 55.9939,
+      "population": 147680
+    },
+    {
+      "geonameid": "111421",
+      "name": "زرند",
+      "province": "کرمان",
+      "lat": 30.81271,
+      "lon": 56.56399,
+      "population": 58983
+    },
+    {
+      "geonameid": "115781",
+      "name": "شهر بابک",
+      "province": "کرمان",
+      "lat": 30.1165,
+      "lon": 55.1186,
+      "population": 51620
+    },
+    {
+      "geonameid": "128234",
+      "name": "کرمان",
+      "province": "کرمان",
+      "lat": 30.28321,
+      "lon": 57.07879,
+      "population": 577514
+    }
+  ],
+  "یزد": [
+    {
+      "geonameid": "143073",
+      "name": "اردکان",
+      "province": "یزد",
+      "lat": 32.31001,
+      "lon": 54.01747,
+      "population": 58834
+    },
+    {
+      "geonameid": "142255",
+      "name": "بافق",
+      "province": "یزد",
+      "lat": 31.6035,
+      "lon": 55.40249,
+      "population": 31215
+    },
+    {
+      "geonameid": "113659",
+      "name": "طبس",
+      "province": "یزد",
+      "lat": 33.59586,
+      "lon": 56.92437,
+      "population": 49993
+    },
+    {
+      "geonameid": "124193",
+      "name": "ميبد",
+      "province": "یزد",
+      "lat": 32.25014,
+      "lon": 54.01658,
+      "population": 51874
+    },
+    {
+      "geonameid": "124274",
+      "name": "مِهريز",
+      "province": "یزد",
+      "lat": 31.58428,
+      "lon": 54.4428,
+      "population": 36720
+    },
+    {
+      "geonameid": "111822",
+      "name": "یزد",
+      "province": "یزد",
+      "lat": 31.89722,
+      "lon": 54.3675,
+      "population": 477905
+    }
+  ],
+  "خراسان رضوی": [
+    {
+      "geonameid": "141349",
+      "name": "بردسکن",
+      "province": "خراسان رضوی",
+      "lat": 35.26218,
+      "lon": 57.97075,
+      "population": 28233
+    },
+    {
+      "geonameid": "1159384",
+      "name": "تايباد",
+      "province": "خراسان رضوی",
+      "lat": 34.74,
+      "lon": 60.7756,
+      "population": 37513
+    },
+    {
+      "geonameid": "1159362",
+      "name": "تربت جام",
+      "province": "خراسان رضوی",
+      "lat": 35.244,
+      "lon": 60.6225,
+      "population": 58928
+    },
+    {
+      "geonameid": "112646",
+      "name": "تربت حیدریه",
+      "province": "خراسان رضوی",
+      "lat": 35.27401,
+      "lon": 59.21949,
+      "population": 125633
+    },
+    {
+      "geonameid": "1160544",
+      "name": "خواف",
+      "province": "خراسان رضوی",
+      "lat": 34.5763,
+      "lon": 60.14093,
+      "population": 33189
+    },
+    {
+      "geonameid": "7082152",
+      "name": "سایبان گلی",
+      "province": "خراسان رضوی",
+      "lat": 36.56976,
+      "lon": 59.1904,
+      "population": 36877
+    },
+    {
+      "geonameid": "118063",
+      "name": "سبزوار",
+      "province": "خراسان رضوی",
+      "lat": 36.2126,
+      "lon": 57.68191,
+      "population": 226183
+    },
+    {
+      "geonameid": "1159716",
+      "name": "سرخس",
+      "province": "خراسان رضوی",
+      "lat": 36.5449,
+      "lon": 61.1577,
+      "population": 46499
+    },
+    {
+      "geonameid": "119115",
+      "name": "قوچان",
+      "province": "خراسان رضوی",
+      "lat": 37.106,
+      "lon": 58.50955,
+      "population": 111752
+    },
+    {
+      "geonameid": "124878",
+      "name": "مراغه",
+      "province": "خراسان رضوی",
+      "lat": 35.82916,
+      "lon": 59.63324,
+      "population": 262604
+    },
+    {
+      "geonameid": "124665",
+      "name": "مشهد",
+      "province": "خراسان رضوی",
+      "lat": 36.29807,
+      "lon": 59.60567,
+      "population": 2307177
+    },
+    {
+      "geonameid": "122285",
+      "name": "نیشابور",
+      "province": "خراسان رضوی",
+      "lat": 36.21329,
+      "lon": 58.79575,
+      "population": 220929
+    },
+    {
+      "geonameid": "138742",
+      "name": "چناران",
+      "province": "خراسان رضوی",
+      "lat": 36.64546,
+      "lon": 59.12123,
+      "population": 46940
+    },
+    {
+      "geonameid": "128447",
+      "name": "کاشمر",
+      "province": "خراسان رضوی",
+      "lat": 35.23831,
+      "lon": 58.46558,
+      "population": 96151
+    },
+    {
+      "geonameid": "132961",
+      "name": "گناباد",
+      "province": "خراسان رضوی",
+      "lat": 34.35287,
+      "lon": 58.68365,
+      "population": 43465
+    }
+  ],
+  "مازندران": [
+    {
+      "geonameid": "143534",
+      "name": "آمل",
+      "province": "مازندران",
+      "lat": 36.46961,
+      "lon": 52.35072,
+      "population": 237528
+    },
+    {
+      "geonameid": "143561",
+      "name": "امير كلا",
+      "province": "مازندران",
+      "lat": 36.59673,
+      "lon": 52.6658,
+      "population": 30478
+    },
+    {
+      "geonameid": "140918",
+      "name": "اَشرَف",
+      "province": "مازندران",
+      "lat": 36.69235,
+      "lon": 53.55262,
+      "population": 94702
+    },
+    {
+      "geonameid": "142363",
+      "name": "بابل",
+      "province": "مازندران",
+      "lat": 36.55102,
+      "lon": 52.6786,
+      "population": 202796
+    },
+    {
+      "geonameid": "142358",
+      "name": "بابلسر",
+      "province": "مازندران",
+      "lat": 36.69929,
+      "lon": 52.65011,
+      "population": 48051
+    },
+    {
+      "geonameid": "112656",
+      "name": "تنکابن",
+      "province": "مازندران",
+      "lat": 36.81626,
+      "lon": 50.87376,
+      "population": 37501
+    },
+    {
+      "geonameid": "129933",
+      "name": "جويبار",
+      "province": "مازندران",
+      "lat": 36.64088,
+      "lon": 52.91206,
+      "population": 28404
+    },
+    {
+      "geonameid": "117773",
+      "name": "رامسر",
+      "province": "مازندران",
+      "lat": 36.91796,
+      "lon": 50.64802,
+      "population": 35997
+    },
+    {
+      "geonameid": "118024",
+      "name": "سادات محله",
+      "province": "مازندران",
+      "lat": 36.88879,
+      "lon": 50.6964,
+      "population": 20716
+    },
+    {
+      "geonameid": "116996",
+      "name": "ساری",
+      "province": "مازندران",
+      "lat": 36.56332,
+      "lon": 53.06009,
+      "population": 255396
+    },
+    {
+      "geonameid": "134602",
+      "name": "فريدونكنار",
+      "province": "مازندران",
+      "lat": 36.68489,
+      "lon": 52.51917,
+      "population": 34097
+    },
+    {
+      "geonameid": "120695",
+      "name": "قائم شهر",
+      "province": "مازندران",
+      "lat": 36.46306,
+      "lon": 52.86007,
+      "population": 204953
+    },
+    {
+      "geonameid": "125328",
+      "name": "محمود آباد",
+      "province": "مازندران",
+      "lat": 36.63191,
+      "lon": 52.26286,
+      "population": 31844
+    },
+    {
+      "geonameid": "122397",
+      "name": "نكا",
+      "province": "مازندران",
+      "lat": 36.65079,
+      "lon": 53.29905,
+      "population": 48847
+    },
+    {
+      "geonameid": "113797",
+      "name": "نور",
+      "province": "مازندران",
+      "lat": 36.57168,
+      "lon": 52.0153,
+      "population": 26947
+    },
+    {
+      "geonameid": "121959",
+      "name": "نوشهر",
+      "province": "مازندران",
+      "lat": 36.64852,
+      "lon": 51.49621,
+      "population": 40000
+    },
+    {
+      "geonameid": "139223",
+      "name": "چالوس",
+      "province": "مازندران",
+      "lat": 36.655,
+      "lon": 51.4204,
+      "population": 69638
+    },
+    {
+      "geonameid": "134255",
+      "name": "گلوگاه",
+      "province": "مازندران",
+      "lat": 36.72734,
+      "lon": 53.80888,
+      "population": 21352
+    },
+    {
+      "geonameid": "134256",
+      "name": "گلوگاه",
+      "province": "مازندران",
+      "lat": 36.31048,
+      "lon": 52.62621,
+      "population": 21352
+    }
+  ],
+  "گیلان": [
+    {
+      "geonameid": "126015",
+      "name": "Lāhījān",
+      "province": "گیلان",
+      "lat": 37.20416,
+      "lon": 50.00919,
+      "population": 101073
+    },
+    {
+      "geonameid": "142676",
+      "name": "Āstārā",
+      "province": "گیلان",
+      "lat": 38.43084,
+      "lon": 48.86994,
+      "population": 39065
+    },
+    {
+      "geonameid": "142679",
+      "name": "آستانه اشرفیه",
+      "province": "گیلان",
+      "lat": 37.26318,
+      "lon": 49.94325,
+      "population": 42784
+    },
+    {
+      "geonameid": "141679",
+      "name": "بندر انزلی",
+      "province": "گیلان",
+      "lat": 37.47318,
+      "lon": 49.45785,
+      "population": 110826
+    },
+    {
+      "geonameid": "127415",
+      "name": "خمام",
+      "province": "گیلان",
+      "lat": 37.39016,
+      "lon": 49.65846,
+      "population": 20897
+    },
+    {
+      "geonameid": "118743",
+      "name": "رشت",
+      "province": "گیلان",
+      "lat": 37.27611,
+      "lon": 49.58862,
+      "population": 594590
+    },
+    {
+      "geonameid": "118191",
+      "name": "رودسر",
+      "province": "گیلان",
+      "lat": 37.13696,
+      "lon": 50.29174,
+      "population": 47502
+    },
+    {
+      "geonameid": "113860",
+      "name": "صومعه سرا",
+      "province": "گیلان",
+      "lat": 37.30134,
+      "lon": 49.31504,
+      "population": 47083
+    },
+    {
+      "geonameid": "134441",
+      "name": "فومن",
+      "province": "گیلان",
+      "lat": 37.224,
+      "lon": 49.3125,
+      "population": 35841
+    },
+    {
+      "geonameid": "125897",
+      "name": "لنگرود",
+      "province": "گیلان",
+      "lat": 37.19548,
+      "lon": 50.15263,
+      "population": 68148
+    },
+    {
+      "geonameid": "113343",
+      "name": "هشتپر",
+      "province": "گیلان",
+      "lat": 37.79658,
+      "lon": 48.90521,
+      "population": 45305
+    }
+  ],
+  "آذربایجان غربی": [
+    {
+      "geonameid": "139889",
+      "name": "Būkān",
+      "province": "آذربایجان غربی",
+      "lat": 36.521,
+      "lon": 46.2089,
+      "population": 213331
+    },
+    {
+      "geonameid": "121795",
+      "name": "اشنويه",
+      "province": "آذربایجان غربی",
+      "lat": 37.0397,
+      "lon": 45.0983,
+      "population": 50661
+    },
+    {
+      "geonameid": "113508",
+      "name": "تکاب",
+      "province": "آذربایجان غربی",
+      "lat": 36.4009,
+      "lon": 47.1133,
+      "population": 51541
+    },
+    {
+      "geonameid": "126972",
+      "name": "خوی",
+      "province": "آذربایجان غربی",
+      "lat": 38.5503,
+      "lon": 44.9521,
+      "population": 175370
+    },
+    {
+      "geonameid": "117111",
+      "name": "سردشت",
+      "province": "آذربایجان غربی",
+      "lat": 36.1552,
+      "lon": 45.4788,
+      "population": 46412
+    },
+    {
+      "geonameid": "117656",
+      "name": "سلماس",
+      "province": "آذربایجان غربی",
+      "lat": 38.1973,
+      "lon": 44.7653,
+      "population": 81606
+    },
+    {
+      "geonameid": "117793",
+      "name": "شاهین دژ",
+      "province": "آذربایجان غربی",
+      "lat": 36.6793,
+      "lon": 46.5669,
+      "population": 41442
+    },
+    {
+      "geonameid": "121801",
+      "name": "شهرستان ارومیه",
+      "province": "آذربایجان غربی",
+      "lat": 37.55274,
+      "lon": 45.07605,
+      "population": 577307
+    },
+    {
+      "geonameid": "401118",
+      "name": "شُط",
+      "province": "آذربایجان غربی",
+      "lat": 39.2192,
+      "lon": 44.77,
+      "population": 25381
+    },
+    {
+      "geonameid": "119730",
+      "name": "قره ضیاء الدین",
+      "province": "آذربایجان غربی",
+      "lat": 38.8915,
+      "lon": 45.0255,
+      "population": 31947
+    },
+    {
+      "geonameid": "125446",
+      "name": "مهاباد",
+      "province": "آذربایجان غربی",
+      "lat": 36.7631,
+      "lon": 45.7222,
+      "population": 162434
+    },
+    {
+      "geonameid": "124085",
+      "name": "میاندوآب",
+      "province": "آذربایجان غربی",
+      "lat": 36.96667,
+      "lon": 46.10961,
+      "population": 134425
+    },
+    {
+      "geonameid": "122698",
+      "name": "نقده",
+      "province": "آذربایجان غربی",
+      "lat": 36.9553,
+      "lon": 45.388,
+      "population": 81598
+    },
+    {
+      "geonameid": "120954",
+      "name": "پلدشت",
+      "province": "آذربایجان غربی",
+      "lat": 39.348,
+      "lon": 45.071,
+      "population": 42170
+    },
+    {
+      "geonameid": "121110",
+      "name": "پیرانشهر",
+      "province": "آذربایجان غربی",
+      "lat": 36.701,
+      "lon": 45.1413,
+      "population": 61973
+    }
+  ],
+  "آذربایجان شرقی": [
+    {
+      "geonameid": "13631338",
+      "name": "Sahand",
+      "province": "آذربایجان شرقی",
+      "lat": 37.95104,
+      "lon": 46.1103,
+      "population": 82494
+    },
+    {
+      "geonameid": "144616",
+      "name": "اهر",
+      "province": "آذربایجان شرقی",
+      "lat": 38.4774,
+      "lon": 47.0699,
+      "population": 94348
+    },
+    {
+      "geonameid": "144443",
+      "name": "اَجَبشَهر",
+      "province": "آذربایجان شرقی",
+      "lat": 37.4776,
+      "lon": 45.8943,
+      "population": 29675
+    },
+    {
+      "geonameid": "140889",
+      "name": "بناب",
+      "province": "آذربایجان شرقی",
+      "lat": 37.3404,
+      "lon": 46.0561,
+      "population": 80359
+    },
+    {
+      "geonameid": "113646",
+      "name": "تبریز",
+      "province": "آذربایجان شرقی",
+      "lat": 38.08,
+      "lon": 46.2919,
+      "population": 1424641
+    },
+    {
+      "geonameid": "127219",
+      "name": "خسرو شهر",
+      "province": "آذربایجان شرقی",
+      "lat": 37.9497,
+      "lon": 46.0528,
+      "population": 21972
+    },
+    {
+      "geonameid": "117368",
+      "name": "سراب",
+      "province": "آذربایجان شرقی",
+      "lat": 37.9408,
+      "lon": 47.5367,
+      "population": 45031
+    },
+    {
+      "geonameid": "117096",
+      "name": "سردرود",
+      "province": "آذربایجان شرقی",
+      "lat": 38.02613,
+      "lon": 46.14763,
+      "population": 29739
+    },
+    {
+      "geonameid": "116126",
+      "name": "شبستر",
+      "province": "آذربایجان شرقی",
+      "lat": 38.1804,
+      "lon": 45.7028,
+      "population": 22181
+    },
+    {
+      "geonameid": "124877",
+      "name": "مراغه",
+      "province": "آذربایجان شرقی",
+      "lat": 37.39206,
+      "lon": 46.23909,
+      "population": 262604
+    },
+    {
+      "geonameid": "124862",
+      "name": "مرند",
+      "province": "آذربایجان شرقی",
+      "lat": 38.4329,
+      "lon": 45.7749,
+      "population": 124191
+    },
+    {
+      "geonameid": "125112",
+      "name": "مَلِك كَندی",
+      "province": "آذربایجان شرقی",
+      "lat": 37.14258,
+      "lon": 46.10345,
+      "population": 27431
+    },
+    {
+      "geonameid": "124082",
+      "name": "میانه",
+      "province": "آذربایجان شرقی",
+      "lat": 37.421,
+      "lon": 47.715,
+      "population": 182848
+    }
+  ],
+  "خراسان شمالی": [
+    {
+      "geonameid": "135298",
+      "name": "اسفراین",
+      "province": "خراسان شمالی",
+      "lat": 37.07645,
+      "lon": 57.51009,
+      "population": 59678
+    },
+    {
+      "geonameid": "140380",
+      "name": "بجنورد",
+      "province": "خراسان شمالی",
+      "lat": 37.47473,
+      "lon": 57.32903,
+      "population": 192041
+    },
+    {
+      "geonameid": "114930",
+      "name": "شیروان",
+      "province": "خراسان شمالی",
+      "lat": 37.39669,
+      "lon": 57.92952,
+      "population": 82790
+    }
+  ],
+  "چهار محال بختیاری": [
+    {
+      "geonameid": "140046",
+      "name": "اَمروجان",
+      "province": "چهار محال بختیاری",
+      "lat": 31.96523,
+      "lon": 51.2873,
+      "population": 52654
+    },
+    {
+      "geonameid": "115770",
+      "name": "شهر كرد",
+      "province": "چهار محال بختیاری",
+      "lat": 32.32612,
+      "lon": 50.8572,
+      "population": 129153
+    },
+    {
+      "geonameid": "134762",
+      "name": "فارسان",
+      "province": "چهار محال بختیاری",
+      "lat": 32.25694,
+      "lon": 50.56095,
+      "population": 25071
+    },
+    {
+      "geonameid": "120678",
+      "name": "فرّخ شهر",
+      "province": "چهار محال بختیاری",
+      "lat": 32.27174,
+      "lon": 50.98008,
+      "population": 32391
+    },
+    {
+      "geonameid": "125609",
+      "name": "لُرد جَن",
+      "province": "چهار محال بختیاری",
+      "lat": 31.51338,
+      "lon": 50.82672,
+      "population": 40528
+    },
+    {
+      "geonameid": "132458",
+      "name": "هفشجان",
+      "province": "چهار محال بختیاری",
+      "lat": 32.22662,
+      "lon": 50.79314,
+      "population": 21352
+    }
+  ],
+  "اصفهان": [
+    {
+      "geonameid": "418896",
+      "name": "Dorcheh Pīāz",
+      "province": "اصفهان",
+      "lat": 32.61528,
+      "lon": 51.55556,
+      "population": 37462
+    },
+    {
+      "geonameid": "137929",
+      "name": "Dārān",
+      "province": "اصفهان",
+      "lat": 32.98741,
+      "lon": 50.4108,
+      "population": 20078
+    },
+    {
+      "geonameid": "122869",
+      "name": "Nā’īn",
+      "province": "اصفهان",
+      "lat": 32.86006,
+      "lon": 53.08749,
+      "population": 27379
+    },
+    {
+      "geonameid": "143122",
+      "name": "آران",
+      "province": "اصفهان",
+      "lat": 34.05751,
+      "lon": 51.48291,
+      "population": 65404
+    },
+    {
+      "geonameid": "418863",
+      "name": "اصفهان",
+      "province": "اصفهان",
+      "lat": 32.65246,
+      "lon": 51.67462,
+      "population": 1547164
+    },
+    {
+      "geonameid": "418950",
+      "name": "باغ ابریشم",
+      "province": "اصفهان",
+      "lat": 32.55613,
+      "lon": 51.57325,
+      "population": 20000
+    },
+    {
+      "geonameid": "418943",
+      "name": "بهارستان",
+      "province": "اصفهان",
+      "lat": 32.48814,
+      "lon": 51.77312,
+      "population": 79023
+    },
+    {
+      "geonameid": "418446",
+      "name": "تیران",
+      "province": "اصفهان",
+      "lat": 32.70328,
+      "lon": 51.15381,
+      "population": 21703
+    },
+    {
+      "geonameid": "418710",
+      "name": "خمینی شهر",
+      "province": "اصفهان",
+      "lat": 32.6856,
+      "lon": 51.53609,
+      "population": 277334
+    },
+    {
+      "geonameid": "127033",
+      "name": "خوانسار",
+      "province": "اصفهان",
+      "lat": 33.22052,
+      "lon": 50.31497,
+      "population": 21146
+    },
+    {
+      "geonameid": "418699",
+      "name": "خورزوق",
+      "province": "اصفهان",
+      "lat": 32.778,
+      "lon": 51.64685,
+      "population": 29154
+    },
+    {
+      "geonameid": "418868",
+      "name": "دولت آباد",
+      "province": "اصفهان",
+      "lat": 32.79978,
+      "lon": 51.69553,
+      "population": 33607
+    },
+    {
+      "geonameid": "418521",
+      "name": "رهنان",
+      "province": "اصفهان",
+      "lat": 32.68325,
+      "lon": 51.60158,
+      "population": 49143
+    },
+    {
+      "geonameid": "418418",
+      "name": "زرّین شهر",
+      "province": "اصفهان",
+      "lat": 32.39057,
+      "lon": 51.37654,
+      "population": 55817
+    },
+    {
+      "geonameid": "116406",
+      "name": "سمیرم",
+      "province": "اصفهان",
+      "lat": 31.41667,
+      "lon": 51.56667,
+      "population": 27220
+    },
+    {
+      "geonameid": "417472",
+      "name": "شاهین شهر",
+      "province": "اصفهان",
+      "lat": 32.85788,
+      "lon": 51.5529,
+      "population": 173329
+    },
+    {
+      "geonameid": "418533",
+      "name": "شهرضا",
+      "province": "اصفهان",
+      "lat": 32.00877,
+      "lon": 51.86407,
+      "population": 134952
+    },
+    {
+      "geonameid": "418838",
+      "name": "فولاد شهر",
+      "province": "اصفهان",
+      "lat": 32.48664,
+      "lon": 51.39673,
+      "population": 88426
+    },
+    {
+      "geonameid": "418571",
+      "name": "قهدریجان",
+      "province": "اصفهان",
+      "lat": 32.5773,
+      "lon": 51.45367,
+      "population": 29392
+    },
+    {
+      "geonameid": "418625",
+      "name": "مبارکه",
+      "province": "اصفهان",
+      "lat": 32.34612,
+      "lon": 51.50205,
+      "population": 69449
+    },
+    {
+      "geonameid": "418851",
+      "name": "ملاورجان",
+      "province": "اصفهان",
+      "lat": 32.5553,
+      "lon": 51.50973,
+      "population": 49843
+    },
+    {
+      "geonameid": "418606",
+      "name": "نجف آباد",
+      "province": "اصفهان",
+      "lat": 32.63464,
+      "lon": 51.36525,
+      "population": 235281
+    },
+    {
+      "geonameid": "122491",
+      "name": "نطنز",
+      "province": "اصفهان",
+      "lat": 33.51118,
+      "lon": 51.91808,
+      "population": 43977
+    },
+    {
+      "geonameid": "418723",
+      "name": "کلیشاد",
+      "province": "اصفهان",
+      "lat": 32.55118,
+      "lon": 51.52758,
+      "population": 33630
+    },
+    {
+      "geonameid": "418830",
+      "name": "گز",
+      "province": "اصفهان",
+      "lat": 32.80482,
+      "lon": 51.62087,
+      "population": 24433
+    },
+    {
+      "geonameid": "418556",
+      "name": "گلدشت",
+      "province": "اصفهان",
+      "lat": 32.62837,
+      "lon": 51.43926,
+      "population": 25235
+    },
+    {
+      "geonameid": "133037",
+      "name": "گلپایگان",
+      "province": "اصفهان",
+      "lat": 33.4537,
+      "lon": 50.28836,
+      "population": 44916
+    }
+  ],
+  "مرکزی": [
+    {
+      "geonameid": "144794",
+      "name": "آبيِك",
+      "province": "مرکزی",
+      "lat": 36.06667,
+      "lon": 50.55,
+      "population": 55128
+    },
+    {
+      "geonameid": "127403",
+      "name": "خمين",
+      "province": "مرکزی",
+      "lat": 33.63889,
+      "lon": 50.08003,
+      "population": 77425
+    },
+    {
+      "geonameid": "136399",
+      "name": "دليجان",
+      "province": "مرکزی",
+      "lat": 33.9905,
+      "lon": 50.6838,
+      "population": 33508
+    },
+    {
+      "geonameid": "116667",
+      "name": "ساوه",
+      "province": "مرکزی",
+      "lat": 35.0213,
+      "lon": 50.3566,
+      "population": 220762
+    },
+    {
+      "geonameid": "143127",
+      "name": "ساوه",
+      "province": "مرکزی",
+      "lat": 34.09493,
+      "lon": 49.69809,
+      "population": 503647
+    },
+    {
+      "geonameid": "142567",
+      "name": "شازند",
+      "province": "مرکزی",
+      "lat": 33.93132,
+      "lon": 49.40629,
+      "population": 21181
+    },
+    {
+      "geonameid": "6657461",
+      "name": "مامونیه",
+      "province": "مرکزی",
+      "lat": 35.30454,
+      "lon": 50.49934,
+      "population": 21814
+    },
+    {
+      "geonameid": "6746932",
+      "name": "محدوده شهر جدید مهاجران",
+      "province": "مرکزی",
+      "lat": 34.05042,
+      "lon": 49.43498,
+      "population": 20346
+    },
+    {
+      "geonameid": "125438",
+      "name": "محلات",
+      "province": "مرکزی",
+      "lat": 33.91108,
+      "lon": 50.45317,
+      "population": 43245
+    },
+    {
+      "geonameid": "128748",
+      "name": "کرهرود",
+      "province": "مرکزی",
+      "lat": 34.06095,
+      "lon": 49.64462,
+      "population": 29721
+    }
+  ],
+  "کردستان": [
+    {
+      "geonameid": "140521",
+      "name": "بيجار",
+      "province": "کردستان",
+      "lat": 35.8668,
+      "lon": 47.60506,
+      "population": 50014
+    },
+    {
+      "geonameid": "141584",
+      "name": "بَنِ",
+      "province": "کردستان",
+      "lat": 35.9975,
+      "lon": 45.8853,
+      "population": 104799
+    },
+    {
+      "geonameid": "136156",
+      "name": "ديواندره",
+      "province": "کردستان",
+      "lat": 35.9139,
+      "lon": 47.0239,
+      "population": 34007
+    },
+    {
+      "geonameid": "117392",
+      "name": "سقز",
+      "province": "کردستان",
+      "lat": 36.24992,
+      "lon": 46.2735,
+      "population": 151237
+    },
+    {
+      "geonameid": "117574",
+      "name": "سِنَّ",
+      "province": "کردستان",
+      "lat": 35.31495,
+      "lon": 46.99883,
+      "population": 349176
+    },
+    {
+      "geonameid": "119161",
+      "name": "قروه",
+      "province": "کردستان",
+      "lat": 35.1664,
+      "lon": 47.80564,
+      "population": 87953
+    },
+    {
+      "geonameid": "124778",
+      "name": "قَلعِۀ مَريوان",
+      "province": "کردستان",
+      "lat": 35.51829,
+      "lon": 46.18298,
+      "population": 91664
+    },
+    {
+      "geonameid": "128905",
+      "name": "کامیاران",
+      "province": "کردستان",
+      "lat": 34.79535,
+      "lon": 46.93682,
+      "population": 61642
+    }
+  ],
+  "قم": [
+    {
+      "geonameid": "119208",
+      "name": "قم",
+      "province": "قم",
+      "lat": 34.6401,
+      "lon": 50.8764,
+      "population": 900000
+    }
+  ],
+  "هرمزگان": [
+    {
+      "geonameid": "141681",
+      "name": "بندر عباس",
+      "province": "هرمزگان",
+      "lat": 27.1865,
+      "lon": 56.2808,
+      "population": 352173
+    },
+    {
+      "geonameid": "141665",
+      "name": "بندر لنگه",
+      "province": "هرمزگان",
+      "lat": 26.55792,
+      "lon": 54.88067,
+      "population": 22768
+    },
+    {
+      "geonameid": "132382",
+      "name": "حاجی آباد",
+      "province": "هرمزگان",
+      "lat": 28.3091,
+      "lon": 55.9017,
+      "population": 23309
+    },
+    {
+      "geonameid": "119374",
+      "name": "قشم",
+      "province": "هرمزگان",
+      "lat": 26.9492,
+      "lon": 56.2691,
+      "population": 25000
+    },
+    {
+      "geonameid": "126914",
+      "name": "كيش",
+      "province": "هرمزگان",
+      "lat": 26.55778,
+      "lon": 54.01944,
+      "population": 39853
+    },
+    {
+      "geonameid": "123941",
+      "name": "ميناب",
+      "province": "هرمزگان",
+      "lat": 27.13104,
+      "lon": 57.08716,
+      "population": 70790
+    }
+  ],
+  "خراسان جنوبی": [
+    {
+      "geonameid": "120694",
+      "name": "Qā’en",
+      "province": "خراسان جنوبی",
+      "lat": 33.72654,
+      "lon": 59.18439,
+      "population": 40157
+    },
+    {
+      "geonameid": "140463",
+      "name": "بیرجند",
+      "province": "خراسان جنوبی",
+      "lat": 32.86628,
+      "lon": 59.22114,
+      "population": 196982
+    }
+  ],
+  "اردبیل": [
+    {
+      "geonameid": "143083",
+      "name": "اردبیل",
+      "province": "اردبیل",
+      "lat": 38.2498,
+      "lon": 48.2933,
+      "population": 410753
+    },
+    {
+      "geonameid": "128008",
+      "name": "خلخال",
+      "province": "اردبیل",
+      "lat": 37.61837,
+      "lon": 48.52928,
+      "population": 51024
+    },
+    {
+      "geonameid": "124210",
+      "name": "مشگين شهر",
+      "province": "اردبیل",
+      "lat": 38.399,
+      "lon": 47.682,
+      "population": 74109
+    },
+    {
+      "geonameid": "121380",
+      "name": "پارس آباد",
+      "province": "اردبیل",
+      "lat": 39.6482,
+      "lon": 47.9174,
+      "population": 101661
+    },
+    {
+      "geonameid": "133972",
+      "name": "گرمی",
+      "province": "اردبیل",
+      "lat": 39.0215,
+      "lon": 48.0801,
+      "population": 28967
+    }
+  ],
+  "بوشهر": [
+    {
+      "geonameid": "141676",
+      "name": "بندر ديلم",
+      "province": "بوشهر",
+      "lat": 30.0542,
+      "lon": 50.159,
+      "population": 25730
+    },
+    {
+      "geonameid": "134217",
+      "name": "بندر گناوه",
+      "province": "بوشهر",
+      "lat": 29.5791,
+      "lon": 50.517,
+      "population": 52750
+    },
+    {
+      "geonameid": "128847",
+      "name": "بندرِ كنگان",
+      "province": "بوشهر",
+      "lat": 27.83434,
+      "lon": 52.06306,
+      "population": 60187
+    },
+    {
+      "geonameid": "139817",
+      "name": "بوشِهر",
+      "province": "بوشهر",
+      "lat": 28.96887,
+      "lon": 50.83657,
+      "population": 165377
+    },
+    {
+      "geonameid": "140097",
+      "name": "بُرَزدجَن",
+      "province": "بوشهر",
+      "lat": 29.2699,
+      "lon": 51.2188,
+      "population": 86059
+    },
+    {
+      "geonameid": "130451",
+      "name": "جم",
+      "province": "بوشهر",
+      "lat": 27.82977,
+      "lon": 52.32518,
+      "population": 31436
+    },
+    {
+      "geonameid": "125206",
+      "name": "مكو",
+      "province": "بوشهر",
+      "lat": 27.8486,
+      "lon": 52.423,
+      "population": 46581
+    }
+  ],
+  "ایلام": [
+    {
+      "geonameid": "130802",
+      "name": "ایلام",
+      "province": "ایلام",
+      "lat": 33.6374,
+      "lon": 46.4227,
+      "population": 140940
+    },
+    {
+      "geonameid": "137436",
+      "name": "دره شهر",
+      "province": "ایلام",
+      "lat": 33.14447,
+      "lon": 47.3799,
+      "population": 24961
+    },
+    {
+      "geonameid": "136702",
+      "name": "دهلران",
+      "province": "ایلام",
+      "lat": 32.6941,
+      "lon": 47.2679,
+      "population": 46002
+    },
+    {
+      "geonameid": "145233",
+      "name": "قَلعِۀ آب دانان",
+      "province": "ایلام",
+      "lat": 32.9926,
+      "lon": 47.4198,
+      "population": 23946
+    }
+  ],
+  "سیستان و بلوچستان": [
+    {
+      "geonameid": "1159877",
+      "name": "Qaşr-e Qand",
+      "province": "سیستان و بلوچستان",
+      "lat": 26.24833,
+      "lon": 60.7525,
+      "population": 37722
+    },
+    {
+      "geonameid": "1160939",
+      "name": "ايرانشهر",
+      "province": "سیستان و بلوچستان",
+      "lat": 27.20245,
+      "lon": 60.68476,
+      "population": 131232
+    },
+    {
+      "geonameid": "1160571",
+      "name": "خاش",
+      "province": "سیستان و بلوچستان",
+      "lat": 28.22107,
+      "lon": 61.21582,
+      "population": 69603
+    },
+    {
+      "geonameid": "1113217",
+      "name": "زابل",
+      "province": "سیستان و بلوچستان",
+      "lat": 31.0306,
+      "lon": 61.4949,
+      "population": 121989
+    },
+    {
+      "geonameid": "1159301",
+      "name": "زاهدان",
+      "province": "سیستان و بلوچستان",
+      "lat": 29.4963,
+      "lon": 60.8629,
+      "population": 551980
+    },
+    {
+      "geonameid": "1159713",
+      "name": "سراوان",
+      "province": "سیستان و بلوچستان",
+      "lat": 27.37089,
+      "lon": 62.33096,
+      "population": 60014
+    },
+    {
+      "geonameid": "1161724",
+      "name": "چاه بهار",
+      "province": "سیستان و بلوچستان",
+      "lat": 25.2919,
+      "lon": 60.643,
+      "population": 47287
+    },
+    {
+      "geonameid": "1160500",
+      "name": "کنارک",
+      "province": "سیستان و بلوچستان",
+      "lat": 25.3604,
+      "lon": 60.3995,
+      "population": 43258
+    }
+  ]
+}
