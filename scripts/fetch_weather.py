@@ -10,11 +10,23 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "data", "cities")
 
 API_URL = "https://api.open-meteo.com/v1/forecast"
 
+# استفاده از session برای سرعت و پایداری بهتر
+session = requests.Session()
+
 
 def load_cities():
     with open(CITIES_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
-    return data["cities"]
+
+    # اگر فایل به صورت لیست بود
+    if isinstance(data, list):
+        return data
+
+    # اگر ساختار {"cities": [...]} داشت
+    if isinstance(data, dict) and "cities" in data:
+        return data["cities"]
+
+    raise ValueError("Invalid cities file format")
 
 
 def fetch_weather(lat, lon, retries=3):
@@ -22,34 +34,22 @@ def fetch_weather(lat, lon, retries=3):
         "latitude": lat,
         "longitude": lon,
         "current_weather": True,
-        
-        # ⬇️ داده‌های نسخه رایگان + پایه برای نسخه پولی در آینده
-        "hourly": ",".join([
-            "temperature_2m",
-            "precipitation_probability",
-            "weather_code",
-            "wind_speed_10m"
-        ]),
-        "daily": ",".join([
-            "temperature_2m_max",
-            "temperature_2m_min",
-            "precipitation_probability_max",
-            "weather_code"
-        ]),
+        "hourly": "temperature_2m,precipitation_probability,weather_code,wind_speed_10m",
+        "daily": "temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code",
         "forecast_days": 2,
         "timezone": "auto"
     }
 
     for attempt in range(1, retries + 1):
         try:
-            r = requests.get(API_URL, params=params, timeout=(5, 10))
+            r = session.get(API_URL, params=params, timeout=(10, 30))
             r.raise_for_status()
             return r.json()
 
         except Exception as e:
             print(f"  ⚠️ Attempt {attempt} failed:", e)
             if attempt < retries:
-                time.sleep(1)
+                time.sleep(attempt * 2)
             else:
                 print("  ❌ Giving up for this city.")
                 return None
@@ -75,6 +75,7 @@ def save_city_weather(city, weather):
 
 def main():
     cities = load_cities()
+    failed = []
 
     for city in cities:
         print("Fetching:", city["name_fa"])
@@ -83,13 +84,17 @@ def main():
 
         if weather is None:
             print("  ⚠️ Skipped due to error")
+            failed.append(city["name_fa"])
             continue
 
         save_city_weather(city, weather)
 
+        # جلوگیری از overload روی API
+        time.sleep(0.3)
+
     print("Done.")
-    print(type(data))
-    print(data.keys() if isinstance(data, dict) else "NOT DICT")
+    print("Failed cities:", failed)
+
 
 if __name__ == "__main__":
     main()
