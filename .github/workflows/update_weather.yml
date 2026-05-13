@@ -36,8 +36,14 @@ jobs:
           echo "Current directory:"
           pwd
           echo ""
+
           echo "Repo structure:"
           ls -R
+          echo ""
+
+          echo "Data directory:"
+          ls -lah data || echo "data folder not found"
+
           echo "------ DEBUG END ------"
 
       - name: Build summary
@@ -57,18 +63,18 @@ jobs:
 
           git push
 
-      - name: Deploy data to cPanel via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+      - name: Upload files to cPanel
+        run: |
+          echo "Uploading JSON files to cPanel..."
 
-          protocol: ftps
-          port: 21
+          for file in data/*.json; do
+            echo "Uploading $file"
 
-          local-dir: data/
-          server-dir: weather/weather-data/
+            curl -k -X POST \
+              "${{ secrets.CPANEL_HOST }}/execute/Fileman/upload_files" \
+              -H "Authorization: cpanel ${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_TOKEN }}" \
+              -F "dir=/home/${{ secrets.CPANEL_USER }}/weather/weather-data" \
+              -F "file-1=@$file"
+          done
 
-          timeout: 100000
-          dangerous-clean-slate: false
+          echo "Upload finished."
