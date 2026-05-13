@@ -64,10 +64,11 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
 
-          protocol: ftp
+          protocol: ftps
           port: 21
 
           local-dir: data/
           server-dir: weather/weather-data/
 
+          timeout: 100000
           dangerous-clean-slate: false
