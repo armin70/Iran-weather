@@ -30,7 +30,6 @@ jobs:
           echo "Running fetch..."
           python scripts/fetch_weather.py
 
-      # ✅ این بخش جدید است
       - name: Debug after fetch
         run: |
           echo "------ DEBUG START ------"
@@ -57,3 +56,12 @@ jobs:
           git pull --rebase origin main || echo "No pull needed"
 
           git push
+
+      - name: Deploy data to cPanel via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: data/
+          server-dir: weather/weather-data/
