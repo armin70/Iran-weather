@@ -62,19 +62,3 @@ jobs:
           git pull --rebase origin main || echo "No pull needed"
 
           git push
-
-      - name: Upload files to cPanel
-        run: |
-          echo "Uploading JSON files to cPanel..."
-
-          for file in data/*.json; do
-            echo "Uploading $file"
-
-            curl -k -X POST \
-              "${{ secrets.CPANEL_HOST }}/execute/Fileman/upload_files" \
-              -H "Authorization: cpanel ${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_TOKEN }}" \
-              -F "dir=/home/${{ secrets.CPANEL_USER }}/weather/weather-data" \
-              -F "file-1=@$file"
-          done
-
-          echo "Upload finished."
