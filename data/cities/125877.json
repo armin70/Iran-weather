@@ -7,7 +7,7 @@
   "data": {
     "latitude": 27.662565,
     "longitude": 54.343433,
-    "generationtime_ms": 4.215478897094727,
+    "generationtime_ms": 0.5905628204345703,
     "utc_offset_seconds": 12600,
     "timezone": "Asia/Tehran",
     "timezone_abbreviation": "GMT+3:30",
@@ -22,12 +22,12 @@
       "weathercode": "wmo code"
     },
     "current_weather": {
-      "time": "2026-06-13T17:30",
+      "time": "2026-06-13T23:00",
       "interval": 900,
-      "temperature": 40.0,
-      "windspeed": 12.9,
-      "winddirection": 203,
-      "is_day": 1,
+      "temperature": 30.8,
+      "windspeed": 1.8,
+      "winddirection": 259,
+      "is_day": 0,
       "weathercode": 0
     },
     "hourly_units": {
